@@ -1,8 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
+/**
+ * Class for percolation.
+ */
 class Percolation {
+	/**
+	 * { var_description }
+	 */
 	private WeightedQuickUnionUF wqf;
+
 	private int n;
-	private int size, first, last;
+	private int size;
+	private int first;
+	private int last;
 	private boolean[] connected;
 	// create n-by-n grid, with all sites blocked
    public Percolation(int n1) {
@@ -48,6 +57,8 @@ class Percolation {
    		LinkOpenSites(index, index - 1);
    		return;
    	}
+   	LinkOpenSites(index, index + 1);
+   	LinkOpenSites(index, index - 1);
 
 
    } 
