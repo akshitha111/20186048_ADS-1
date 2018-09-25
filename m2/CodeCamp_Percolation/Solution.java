@@ -55,8 +55,8 @@ class Percolation {
    	if (top >= 0) {
    		LinkOpenSites(index, top);
    	}
-   	if(col == 0) {
-   		if(col !=n) {
+   	if(col == 1) {
+   		if(col != n) {
    			LinkOpenSites(index, index + 1);
 
    		}return;
