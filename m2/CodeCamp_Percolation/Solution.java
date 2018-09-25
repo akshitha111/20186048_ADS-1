@@ -48,6 +48,7 @@ class Percolation {
    public void open(int row, int col) {
    	int index = indexOf(row, col);
    	connected[index] = true;
+   	count++;
    	int bottom = index + n;
    	int top = index - n;
    	if (n == 1) {
@@ -65,8 +66,8 @@ class Percolation {
    	if(col == 1) {
    		if(col != n) {
    			LinkOpenSites(index, index + 1);
-
-   		}return;
+   		}
+   		return;
    	} if (col == n) {
    		LinkOpenSites(index, index - 1);
    		return;
@@ -102,11 +103,11 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		Percolation p = new Percolation(n);
-		int i = 0;
+		// int i = 0;
 		while(sc.hasNext()) {
 			String [] tokens = sc.nextLine().split(" ");
 			p.open(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
-			i++;
+			// i++;
 		}
 		System.out.println(p.percolates() && p.numberOfOpenSites() != 0);
 
