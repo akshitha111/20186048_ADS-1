@@ -4,7 +4,7 @@ import java.util.Scanner;
  */
 class Percolation {
 	/**
-	 * { var_description }
+	 * { object creation }.
 	 */
 	private WeightedQuickUnionUF wqf;
 
