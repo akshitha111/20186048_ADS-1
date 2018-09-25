@@ -13,9 +13,11 @@ class Percolation {
 	private int first;
 	private int last;
 	private boolean[] connected;
+	private int count;
 	// create n-by-n grid, with all sites blocked
    public Percolation(int n1) {
    	this.n = n1;
+   	this.count = 0;
    	this.size = n1 * n1;
    	this.first = size;
    	this.last = size + 1;
@@ -38,6 +40,10 @@ class Percolation {
    	}
    }
 
+   public int numberOfOpenSites() {
+   	return count;
+   }
+
    // open site (row, col) if it is not open already        
    public void open(int row, int col) {
    	int index = indexOf(row, col);
@@ -45,6 +51,8 @@ class Percolation {
    	int bottom = index + n;
    	int top = index - n;
    	if (n == 1) {
+   		wqf.union(first, index);
+   		wqf.union(last, index);
 
    	}
    	if (bottom < size) {
@@ -74,14 +82,7 @@ class Percolation {
      // is site (row, col) full?
    	return connected[indexOf(row, col)];
    }
-   /*public boolean isFull(int row, int col) {
-   	return false;
-   }
-    // number of open sites
-   public int numberOfOpenSites() {
-   	return -1;
-
-   }    */
+    
      // does the system percolate?
    public boolean percolates() {
    	return wqf.connected(first, last);
@@ -107,10 +108,7 @@ public final class Solution {
 			p.open(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
 			i++;
 		}
-		if (i == 0) {
-			System.out.println("false");
-		}
-		System.out.println(p.percolates());
+		System.out.println(p.percolates() && p.numberOfOpenSites() != 0);
 
 	}
 }
