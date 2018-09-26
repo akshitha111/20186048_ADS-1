@@ -1,34 +1,47 @@
-import java.util.*;
-class ThreeSum {
+import java.util.Arrays;
+import java.util.Scanner;
+/**
+ * This is a class solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object for solution class.
+     */
+    private Solution() {
 
-	public void threeSum(int[] arr) {
-		int count = 0;
-		//Arrays.sort(arr);
-		for (int i = 0; i < arr.length-2; i++) {
-			for (int j = i+1; j < arr.length-2; j++) {
-			if(arr[i] + arr[j] + arr[j+2] == 0) {
-				count += 1;
-			}
-		}
-		}
-		System.out.println(count);
-	}
+    }
+    /**
+     * This is a main function.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner input = new Scanner(System.in);
+        int arr = input.nextInt();
+        int[] sum = new int[arr];
+        for (int i = 0; i < arr; i++) {
+            sum[i] = input.nextInt();
+        }
+        Arrays.sort(sum);
+        int count = 0;
+        for (int i = 0; i < arr - 2; i++) {
+            int j = i + 1;
+            int k = arr - 1;
+            while (j < k) {
+                if (sum[i] + sum[j] + sum[k] == 0) {
+                    count++;
+                    j++;
+                    k--;
+                } else if (sum[i] + sum[j] + sum[k] < 0) {
+                    j++;
 
-}
+                } else {
+                    k--;
+                }
+            }
 
-class Solution {
+        }
+        System.out.println(count);
 
-	private Solution() {
-
-	}
-	public static void main(String[] args) {
-		ThreeSum ts = new ThreeSum();
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int[] arr = new int[n];
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
-		ts.threeSum(arr);
-	}
+    }
 }
