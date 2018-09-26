@@ -2,7 +2,7 @@ import java.util.*;
 class ThreeSum {
 	public void threeSum(int[] arr) {
 		int count = 0;
-		for (int i = 1; i < arr.length; i++) {
+		for (int i = 1; i < arr.length-2; i++) {
 			if(arr[i] + arr[i+1] + arr[i+2] == 0) {
 				count++;
 			}
