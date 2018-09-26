@@ -1,25 +1,28 @@
 import java.util.Scanner;
-//import java.util.Arrays;
+import java.util.Arrays;
+/**
+ * Class for sorted array.
+ */
 
 class SortedArray {
     /**
-     * {Initializing an integer array1}.
+     * {Initializing the array1}.
      */
     private int[] array1;
     /**
-     * {Size of 1st array}.
+     * {Size of first array}.
      */
     private int m1;
     /**
-     * {Initializing an integer array2}.
+     * {Initializing the array2}.
      */
     private int[] array2;
     /**
-     * {Size of 2nd array}.
+     * {Size of second array}.
      */
     private int m2;
     /**
-     * {Initializing an integer array3}.
+     * {Initializing the array3}.
      */
     private int[] array3;
     /**
@@ -38,27 +41,27 @@ class SortedArray {
     /**
      * {Method to sort the array}.
      *
-     * @param      a1    Array 1
-     * @param      a2    Array 2
+     * @param      arr1    Array 1
+     * @param      arr2    Array 2
      *
      * @return     {Array}
      */
-    public int[] sort(final int[] a1, final int[] a2) {
+    public int[] sort(final int[] arr1, final int[] arr2) {
         int i = 0;
         int j = 0;
         int k = 0;
         while (i < m1 && j < m2) {
-            if (a1[i] < a2[j]) {
-                this.array3[k++] = a1[i++];
+            if (arr1[i] < arr2[j]) {
+                this.array3[k++] = arr1[i++];
             } else {
-                this.array3[k++] = a2[j++];
+                this.array3[k++] = arr2[j++];
             }
         }
         while (i < m1) {
-            this.array3[k++] = a1[i++];
+            this.array3[k++] = arr1[i++];
         }
         while (j < m2) {
-            this.array3[k++] = a2[j++];
+            this.array3[k++] = arr2[j++];
         }
         return this.array3;
     }
@@ -73,7 +76,7 @@ public final class Solution {
     private Solution() {
     }
     /**
-     * {Main method}.
+     * {thsi is the main method}.
      *
      * @param      args  The arguments
      */
@@ -97,7 +100,7 @@ public final class Solution {
         }
         SortedArray sa = new SortedArray(ar1, ar2);
         int[] a = sa.sort(ar1, ar2);
-        //System.out.println(Arrays.toString(a).substring(
-          //  1, Arrays.toString(a).length() - 1).replace(" ", ""));
+        System.out.println(Arrays.toString(a).substring(
+            1, Arrays.toString(a).length() - 1).replace(" ", ""));
     }
 }
