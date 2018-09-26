@@ -2,12 +2,12 @@ import java.util.*;
 class ThreeSum {
 	public void threeSum(int[] arr) {
 		int count = 0;
-		for (int i = 1; i < arr.length-2; i++) {
+		for (int i = 0; i < arr.length-2; i++) {
 			if(arr[i] + arr[i+1] + arr[i+2] == 0) {
 				count++;
 			}
 		}
-		//System.out.println(count);
+		System.out.println(count);
 	}
 
 }
@@ -24,7 +24,7 @@ class Solution {
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
-		}System.out.println(arr);
+		}//System.out.println(Arrays.toString(arr));
 		ts.threeSum(arr);
 	}
 }
