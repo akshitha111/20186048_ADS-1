@@ -6,8 +6,8 @@ class ThreeSum {
 			if(arr[i] + arr[i+1] + arr[i+2] == 0) {
 				count++;
 			}
-		}System.out.println(count);
-
+		}
+		//System.out.println(count);
 	}
 
 }
@@ -24,7 +24,7 @@ class Solution {
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
-		}
+		}System.out.println(arr);
 		ts.threeSum(arr);
 	}
 }
