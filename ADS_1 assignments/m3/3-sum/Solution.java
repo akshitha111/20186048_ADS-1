@@ -1,7 +1,8 @@
 import java.util.*;
 class ThreeSum {
+	private int count = 0;
+	
 	public void threeSum(int[] arr) {
-		int count = 0;
 		for (int i = 0; i < arr.length-2; i++) {
 			if(arr[i] + arr[i+1] + arr[i+2] == 0) {
 				count++;
