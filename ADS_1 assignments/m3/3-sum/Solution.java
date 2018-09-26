@@ -1,15 +1,17 @@
 import java.util.*;
 class ThreeSum {
-	private int count = 0;
 
 	public void threeSum(int[] arr) {
-		Arrays.sort(arr);
+		int count = 0;
+		//Arrays.sort(arr);
 		for (int i = 0; i < arr.length-2; i++) {
-			if(arr[i] + arr[i+1] + arr[i+2] == 0) {
+			for (int j = i+1; j < arr.length-2; j++) {
+			if(arr[i] + arr[j] + arr[j+2] == 0) {
 				count += 1;
+			}
 		}
-		
-			}System.out.println(count);
+		}
+		System.out.println(count);
 	}
 
 }
