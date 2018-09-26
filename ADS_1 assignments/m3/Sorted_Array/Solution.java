@@ -86,7 +86,6 @@ public final class Solution {
         int s2 = Integer.parseInt(scan.nextLine());
         int[] ar1 = new int[s1];
         int[] ar2 = new int[s2];
-        
         if (s1 > 0) {
             String[] tokens = scan.next().split(",");
             for (int i = 0; i < s1; i++) {
