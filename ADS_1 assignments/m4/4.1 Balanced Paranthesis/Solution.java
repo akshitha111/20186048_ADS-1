@@ -1,134 +1,135 @@
 import java.util.Scanner;
+/**
+ * Linked list class.
+ */
 
-// Java program for checking 
-// balanced Parenthesis 
-  
-class BalancedParan  
-{ 
-    private class stack  
-    { 
-        int top=-1; 
-        char items[] = new char[100]; 
-  
-        void push(char x)  
-        { 
-            if (top == 99)  
-            { 
-                System.out.println("Stack full"); 
-            }  
-            else 
-            { 
-                items[++top] = x; 
-            } 
-        } 
-  
-        char pop()  
-        { 
-            if (top == -1)  
-            { 
-                System.out.println("Underflow error"); 
-                return '\0'; 
-            }  
-            else 
-            { 
-                char element = items[top]; 
-                top--; 
-                return element; 
-            } 
-        } 
-  
-        boolean isEmpty()  
-        { 
-            return (top == -1) ? true : false; 
-        } 
-    } 
-      
-    /* Returns true if character1 and character2 
-       are matching left and right Parenthesis */
-    public  boolean isMatchingPair(char character1, char character2) 
-    { 
-       if (character1 == '(' && character2 == ')') 
-         return true; 
-       else if (character1 == '{' && character2 == '}') 
-         return true; 
-       else if (character1 == '[' && character2 == ']') 
-         return true; 
-       else
-         return false; 
-    } 
-      
-    /* Return true if expression has balanced  
-       Parenthesis */
-    public boolean areParenthesisBalanced(char exp[]) 
-    { 
-       /* Declare an empty character stack */
-       stack st=new stack(); 
-       
-       /* Traverse the given expression to  
-          check matching parenthesis */
-       for(int i=0;i<exp.length;i++) 
-       { 
-            
-          /*If the exp[i] is a starting  
-            parenthesis then push it*/
-          if (exp[i] == '{' || exp[i] == '(' || exp[i] == '[') 
-            st.push(exp[i]); 
-       
-          /* If exp[i] is an ending parenthesis  
-             then pop from stack and check if the  
-             popped parenthesis is a matching pair*/
-          if (exp[i] == '}' || exp[i] == ')' || exp[i] == ']') 
-          { 
-                   
-              /* If we see an ending parenthesis without  
-                 a pair then return false*/
-             if (st.isEmpty()) 
-               { 
-                   return false; 
-               }  
-       
-             /* Pop the top element from stack, if  
-                it is not a pair parenthesis of character  
-                then there is a mismatch. This happens for  
-                expressions like {(}) */
-             else if ( !isMatchingPair(st.pop(), exp[i]) ) 
-               { 
-                   return false; 
-               } 
-          } 
-            
-       } 
-          
-       /* If there is something left in expression  
-          then there is a starting parenthesis without  
-          a closing parenthesis */
-        
-       if (st.isEmpty()) 
-         return true; /*balanced*/
-       else
-         {   /*not balanced*/
-             return false; 
-         }  
+class LinkedList {
+    /**
+     * {Variable head of type Node}.
+     */
+    private Node head;
+    /**
+     * this is a node class.
+     */
+    private class Node {
+        /**
+         * {Variable item of type char}.
+         */
+        private char item;
+        /**
+         * {Variable next of type node}.
+         */
+        private Node next;
     }
-}  
 
-class Solution {
-	public Solution() {
+    /**
+     * this is a constructor.
+     */
+    LinkedList() {
+        this.head = null;
+    }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
+    public boolean isEmpty() {
+        return (head == null);
+    }
+    /**
+     * {Method to get the last element from stack}.
+     *
+     * @return     {Character}
+     */
+    public char pop() {
+        if (head != null) {
+            char value = head.item;
+            head = head.next;
+            return value;
+        }
+        return '\0';
+    }
+    /**
+     * {Method to push a character into the stack}.
+     *
+     * @param      value  char value
+     */
+    public void push(final char value) {
+        Node oldHead = head;
+        head = new Node();
+        head.item = value;
+        head.next = oldHead;
+    }
+}
+/**
+ * this is a Class solution.
+ */
+public final class Solution {
+    /**
+     * this is the Constructor.
+     */
+    private Solution() {}
+    /**
+     * {this is the main method}.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
+        int j = 0;
 
-	}
-public static void main(String[] args)  
+        while (j < n) {
+            boolean b = isBalanced(sc);
 
-    { 
-        BalancedParan bp = new BalancedParan();
-    	Scanner scan = new Scanner(System.in);
-		int input = Integer.parseInt(scan.nextLine());
-		char[] bracket = new char[input];
-		for (int i = 0; i < input; i++) {
-			bracket[i] = scan.next().charAt(0);
-		}
-		  if (bp.areParenthesisBalanced(bracket)) 
-            System.out.println("YES"); 
-          else
-            System.out.println("NO");
-  }
-} 
+            if (b) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
+            j++;
+        }
+    }
+    /**
+     * {Method to check whether the parenthesis are balanced or not}.
+     *
+     * @param      scan  The scanner object
+     *
+     * @return     {Boolean}
+     */
+    public static boolean isBalanced(final Scanner scan) {
+        boolean b = false;
+        LinkedList l = new LinkedList();
+        String str = scan.nextLine();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == '(' || ch == '{' || ch == '[') {
+                l.push(ch);
+            } else if (l.isEmpty()) {
+                b = false;
+                return b;
+            } else if (ch == ')') {
+                if (l == null || l.pop() != '(') {
+                    b = false;
+                    return b;
+                }
+            } else if (ch == ']') {
+                if (l == null || l.pop() != '[') {
+                    b = false;
+                    return b;
+                }
+            } else if (ch == '}') {
+                if (l == null || l.pop() != '{') {
+                    b = false;
+                    return b;
+                }
+            }
+        }
+        if (l.isEmpty()) {
+            //b = true;
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
