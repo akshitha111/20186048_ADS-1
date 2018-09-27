@@ -68,7 +68,8 @@ public final class Solution {
     /**
      * this is the Constructor.
      */
-    private Solution() {}
+    private Solution() {
+    }
     /**
      * {this is the main method}.
      *
@@ -126,10 +127,11 @@ public final class Solution {
             }
         }
         if (l.isEmpty()) {
-            //b = true;
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 }
+
+
+
