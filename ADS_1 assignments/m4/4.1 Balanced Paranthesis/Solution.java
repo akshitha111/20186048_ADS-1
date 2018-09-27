@@ -124,7 +124,7 @@ public static void main(String[] args)
 		int input = Integer.parseInt(scan.nextLine());
 		char[] bracket = new char[input];
 		for (int i = 0; i < input; i++) {
-			bracket[i] = scan.next().charAt(i);
+			bracket[i] = scan.next().charAt(0);
 		}
 		  if (bp.areParenthesisBalanced(bracket)) 
             System.out.println("YES"); 
