@@ -117,14 +117,18 @@ class Solution {
 
 	}
 public static void main(String[] args)  
-    { 
-    	BalancedParan bp = new BalancedParan();
 
-        char exp[] = {'{','(',')','}','[',']'}; 
-          if (bp.areParenthesisBalanced(exp)) 
+    { 
+        BalancedParan bp = new BalancedParan();
+    	Scanner scan = new Scanner(System.in);
+		int input = Integer.parseInt(scan.nextLine());
+		char[] bracket = new char[input];
+		for (int i = 0; i < input; i++) {
+			bracket[i] = scan.next().charAt(i);
+		}
+		  if (bp.areParenthesisBalanced(bracket)) 
             System.out.println("YES"); 
           else
-            System.out.println("NO");   
-    } 
-  
+            System.out.println("NO");
+  }
 } 
