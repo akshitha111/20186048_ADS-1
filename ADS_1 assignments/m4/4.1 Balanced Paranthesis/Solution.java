@@ -1,66 +1,130 @@
-import java.util.*;
-class BalancedParanthesis {
-	BalancedParanthesis() {
+import java.util.Scanner;
+
+// Java program for checking 
+// balanced Parenthesis 
+  
+class BalancedParan  
+{ 
+    private class stack  
+    { 
+        int top=-1; 
+        char items[] = new char[100]; 
+  
+        void push(char x)  
+        { 
+            if (top == 99)  
+            { 
+                System.out.println("Stack full"); 
+            }  
+            else 
+            { 
+                items[++top] = x; 
+            } 
+        } 
+  
+        char pop()  
+        { 
+            if (top == -1)  
+            { 
+                System.out.println("Underflow error"); 
+                return '\0'; 
+            }  
+            else 
+            { 
+                char element = items[top]; 
+                top--; 
+                return element; 
+            } 
+        } 
+  
+        boolean isEmpty()  
+        { 
+            return (top == -1) ? true : false; 
+        } 
+    } 
+      
+    /* Returns true if character1 and character2 
+       are matching left and right Parenthesis */
+    public  boolean isMatchingPair(char character1, char character2) 
+    { 
+       if (character1 == '(' && character2 == ')') 
+         return true; 
+       else if (character1 == '{' && character2 == '}') 
+         return true; 
+       else if (character1 == '[' && character2 == ']') 
+         return true; 
+       else
+         return false; 
+    } 
+      
+    /* Return true if expression has balanced  
+       Parenthesis */
+    public boolean areParenthesisBalanced(char exp[]) 
+    { 
+       /* Declare an empty character stack */
+       stack st=new stack(); 
+       
+       /* Traverse the given expression to  
+          check matching parenthesis */
+       for(int i=0;i<exp.length;i++) 
+       { 
+            
+          /*If the exp[i] is a starting  
+            parenthesis then push it*/
+          if (exp[i] == '{' || exp[i] == '(' || exp[i] == '[') 
+            st.push(exp[i]); 
+       
+          /* If exp[i] is an ending parenthesis  
+             then pop from stack and check if the  
+             popped parenthesis is a matching pair*/
+          if (exp[i] == '}' || exp[i] == ')' || exp[i] == ']') 
+          { 
+                   
+              /* If we see an ending parenthesis without  
+                 a pair then return false*/
+             if (st.isEmpty()) 
+               { 
+                   return false; 
+               }  
+       
+             /* Pop the top element from stack, if  
+                it is not a pair parenthesis of character  
+                then there is a mismatch. This happens for  
+                expressions like {(}) */
+             else if ( !isMatchingPair(st.pop(), exp[i]) ) 
+               { 
+                   return false; 
+               } 
+          } 
+            
+       } 
+          
+       /* If there is something left in expression  
+          then there is a starting parenthesis without  
+          a closing parenthesis */
+        
+       if (st.isEmpty()) 
+         return true; /*balanced*/
+       else
+         {   /*not balanced*/
+             return false; 
+         }  
+    }
+}  
+
+class Solution {
+	public Solution() {
 
 	}
-	public void isBalanced(String[] array) {
-		int countOne = 0;
-		int countTwo = 0;
-		int countThree = 0;
-		int freqOne = 0;
-		int freqTwo = 0;
-		int freqThree = 0;
-		for(int i = 0; i < array.length; i++) {
-			if(array[i] == "(") {
-				countOne += 1;
-			}
-			if(array[i] == "{") {
-				countTwo += 1;
-			}
-			if(array[i] == "(") {
-				countThree += 1;
-			}
-			if(array[i] == "}") {
-				freqOne += 1;
-			}
-			if(array[i] == "]") {
-				freqTwo += 1;
-			}
-			if(array[i] == ")") {
-				freqThree += 1;
-			}
-		}
-		
-		if(countOne == freqOne && countTwo == freqTwo && countThree == freqThree) {
-			System.out.println("YES");
-		} else {
-			System.out.println("NO");
-		}
+public static void main(String[] args)  
+    { 
+    	BalancedParan bp = new BalancedParan();
 
-
-
-
-	}
-}
-
-
-public class Solution {
-	Solution() {
-
-	}
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int input = Integer.parseInt(sc.nextLine());
-		String[] bracket = new String[input];
-		for (int i = 0; i < input; i++) {
-			bracket[i] = sc.nextLine();
-		}
-		BalancedParanthesis bp = new BalancedParanthesis();
-		/*for (int j = 0; j < input; j++) {
-			System.out.println(bp.balanced(bracket[j]));
-		}*/
-		//System.out.println(Arrays.toString(bracket));
-		bp.isBalanced(bracket);
-
-	}
-}
+        char exp[] = {'{','(',')','}','[',']'}; 
+          if (bp.areParenthesisBalanced(exp)) 
+            System.out.println("YES"); 
+          else
+            System.out.println("NO");   
+    } 
+  
+} 
