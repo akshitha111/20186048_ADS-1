@@ -29,12 +29,13 @@ class BalancedParanthesis {
 			if(array[i] == ")") {
 				freqThree += 1;
 			}
-		}
+		
 		if(countOne == freqOne && countTwo == freqTwo && countThree == freqThree) {
 			System.out.println("YES");
 		} else {
 			System.out.println("NO");
 		}
+	}
 
 
 
