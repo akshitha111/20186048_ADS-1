@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.*;
-import java.util.iterator;
+import java.util.Iterator;
 class AddLargeNumbers {
 
     //public class LinkedList {
@@ -20,9 +20,10 @@ class AddLargeNumbers {
             // Print element to console
             System.out.println((String) iterator.next());
             
-        return ll;
+       
 
-        }
+        } return ll;
+    }
         
             
 
@@ -30,9 +31,9 @@ class AddLargeNumbers {
     
 
 
-    public static String digitsToNumber(LinkedList list) {
-        return null;
-    }
+    /*public static String digitsToNumber(LinkedList list) {
+        return;
+    }*/
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         int sum = 0;
@@ -82,15 +83,15 @@ public class Solution {
             case "numberToDigits":
                 LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
                 LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-                System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
-                System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
+                /*System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
+                System.out.println(AddLargeNumbers.digitsToNumber(qDigits));*/
                 break;
 
             case "addLargeNumbers":
                 pDigits = AddLargeNumbers.numberToDigits(p);
                 qDigits = AddLargeNumbers.numberToDigits(q);
                 LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-                System.out.println(AddLargeNumbers.digitsToNumber(result));
+                //System.out.println(AddLargeNumbers.digitsToNumber(result));
                 break;
         }
     }
