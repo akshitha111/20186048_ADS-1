@@ -8,17 +8,17 @@ import java.util.Iterator;
 
 final class AddLargeNumbers {
     /**
-     * Constructs the object.
+     * this is a constructor.
      */
     private AddLargeNumbers() {
 
     }
     /**
-     * { function_description }.
+     * { method for number to digits }.
      *
-     * @param      number  The number
+     * @param      number  The String number
      *
-     * @return     { description_of_the_return_value }
+     * @return     { the linked list object is returned here }.
      */
     public static LinkedList numberToDigits(final String number) {
             LinkedList one = new LinkedList(Arrays.asList(number));
@@ -31,13 +31,14 @@ final class AddLargeNumbers {
     /*public static String digitsToNumber(LinkedList list) {
         return;
     }*/
+
     /**
-     * Adds large numbers.
+     * method to Adds large numbers.
      *
-     * @param      list1  The list 1
-     * @param      list2  The list 2
+     * @param      list1  The linkedlist 1
+     * @param      list2  The linkedlist 2
      *
-     * @return     { description_of_the_return_value }
+     * @return     { the linked list object is returned here }.
      */
     public static LinkedList addLargeNumbers(final LinkedList list1,
      final LinkedList list2) {
@@ -58,17 +59,17 @@ final class AddLargeNumbers {
             }
 }
 /**
- * { item_description }.
+ * { this is a public class solution }.
  */
 public final class Solution {
     /**
-     * Constructs the object.
+     * constructor for class solution.
      */
     private Solution() {
 
     }
     /**
-     * { function_description }.
+     * { this is the main method }.
      *
      * @param      args  The arguments
      */
