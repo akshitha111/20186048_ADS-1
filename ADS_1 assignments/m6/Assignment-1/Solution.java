@@ -15,41 +15,32 @@ class AddLargeNumbers {
     }*/
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        /*int sum = 0;
-        int carry = 0;
-        int data;
-        LinkedList pDigits= new LinkedList();
         
-        class LinkedList {
-        Node head;
-        class Node {
-        private char item;
-        private Node next;
-        int data;
+            LinkedList a = list1;
+            LinkedList b = list2;
+            LinkedList c;
+            int sum = 0;
+            int carry;
+            for(int i = list1.size(); i > 0; i--) {
+                for(int j = list2.size(); j > 0; j--) {
+                   sum += (j + i);
+                   if(sum > 10) {
+                    sum = sum % 10;
+                        
+                    }//c = sum;
+                     
                    }
-        LinkedList() {
-        this.head = null;
-        int data;
-        LinkedList pDigits= new LinkedList();
-                     }       
 
-
-        Node res = null;
-        Node prev = null;
-        Node temp = null;
-        int carry = 0, sum;
-    }
-        while(list1 != null || list2 != null) {*/
+                }return b;
+            }
 
             
-        return null;
-
-        }
-    
-    //}
-
+        
 
 }
+    
+
+
 
 
 public class Solution {
