@@ -1,35 +1,15 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.*;
-import java.util.Iterator;
+//import java.util.Iterator;
 class AddLargeNumbers {
-
-    //public class LinkedList {
-        //LinkedList() {
-           // LinkedList linkedList = new LinkedList();
-        //}
-    //}
-
-    
-    
+  
     public static LinkedList numberToDigits(String number) {
-        
-            //LinkedList one = new LinkedList();
-            LinkedList ll = new LinkedList(Arrays.asList(number));
-            Iterator iterator = ll.iterator();
+            LinkedList one = new LinkedList(Arrays.asList(number));
+            Iterator iterator = one.iterator();
         while (iterator.hasNext()) {
-            // Print element to console
             System.out.println((String) iterator.next());
-            
-       
-
-        } return ll;
+        } return one;
     }
-        
-            
-
-
-    
-
 
     /*public static String digitsToNumber(LinkedList list) {
         return;
