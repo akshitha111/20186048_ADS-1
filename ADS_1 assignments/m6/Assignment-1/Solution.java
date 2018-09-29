@@ -1,12 +1,11 @@
-//import java.util.Scanner;
 import java.util.*;
-//import java.util.Iterator;
+
 class AddLargeNumbers {
   
     public static LinkedList numberToDigits(String number) {
             LinkedList one = new LinkedList(Arrays.asList(number));
             Iterator iterator = one.iterator();
-        while (iterator.hasNext()) {
+            while (iterator.hasNext()) {
             System.out.println((String) iterator.next());
         } return one;
     }
@@ -16,23 +15,23 @@ class AddLargeNumbers {
     }*/
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        int sum = 0;
+        /*int sum = 0;
         int carry = 0;
         int data;
         LinkedList pDigits= new LinkedList();
         
-    class LinkedList {
-    Node head;
-    class Node {
+        class LinkedList {
+        Node head;
+        class Node {
         private char item;
         private Node next;
         int data;
-    }
-    LinkedList() {
+                   }
+        LinkedList() {
         this.head = null;
         int data;
-    LinkedList pDigits= new LinkedList();
-}
+        LinkedList pDigits= new LinkedList();
+                     }       
 
 
         Node res = null;
@@ -40,10 +39,10 @@ class AddLargeNumbers {
         Node temp = null;
         int carry = 0, sum;
     }
-        while(list1 != null || list2 != null) {
+        while(list1 != null || list2 != null) {*/
 
             
-        }return pDigits;
+        return null;
 
         }
     
