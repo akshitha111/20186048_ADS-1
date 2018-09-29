@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.*;
+import java.util.iterator;
 class AddLargeNumbers {
 
     //public class LinkedList {
@@ -11,14 +12,22 @@ class AddLargeNumbers {
     
     
     public static LinkedList numberToDigits(String number) {
-        for(int i = 0; i < number.length(); i++) {
+        
+            //LinkedList one = new LinkedList();
+            LinkedList ll = new LinkedList(Arrays.asList(number));
+            Iterator iterator = ll.iterator();
+        while (iterator.hasNext()) {
+            // Print element to console
+            System.out.println((String) iterator.next());
+            
+        return ll;
 
-        }return null;
+        }
         
             
 
 
-    }
+    
 
 
     public static String digitsToNumber(LinkedList list) {
@@ -26,34 +35,42 @@ class AddLargeNumbers {
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        /*LinkedList one = list1;
-        LinkedList two = list2;
-        LinkedList a = new LinkedList();*/
-        /*int carry = 0;
-        int temp = null;
-        int sum;
-*/
-        //while(one !=null || two != null)
-        //sum = 
-        //
-return null;
+        int sum = 0;
+        int carry = 0;
+        int data;
+        LinkedList pDigits= new LinkedList();
+        
+    class LinkedList {
+    Node head;
+    class Node {
+        private char item;
+        private Node next;
+        int data;
+    }
+    LinkedList() {
+        this.head = null;
+        int data;
+    LinkedList pDigits= new LinkedList();
+}
+
+
+        Node res = null;
+        Node prev = null;
+        Node temp = null;
+        int carry = 0, sum;
+    }
+        while(list1 != null || list2 != null) {
+
+            
+        }return pDigits;
+
         }
+    
     //}
 
 
 }
 
-class LinkedList {
-    private Node head;
-    private class Node {
-        private char item;
-        private Node next;
-    }
-    LinkedList() {
-        this.head = null;
-    LinkedList pDigits= new LinkedList();
-}
-}
 
 public class Solution {
     public static void main(String[] args) {
