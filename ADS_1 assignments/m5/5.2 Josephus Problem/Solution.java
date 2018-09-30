@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * LinkedList implementaing Stack.
+ * class for LinkedList implementaing Stack.
  *
  * @param      <T>   generic mode.
  */
@@ -11,9 +11,14 @@ class CircularLinkedList<T> {
      * generic type node.
      */
     private Node<T> head = null;
+    /**
+     * { variable for tail }.
+     */
     private Node<T> tail = null;
 
-    //for getnext method.
+    /**
+     * { current variable }.
+     */
     private Node<T> current = null;
 
     /**
@@ -62,7 +67,11 @@ class CircularLinkedList<T> {
 
     }
 
-    //working
+    /**
+     * Gets the next.
+     *
+     * @return     The next.
+     */
     public T getNext() {
         if (current == null) {
             current = head;
@@ -72,23 +81,24 @@ class CircularLinkedList<T> {
         return tmp.data;
     }
 
-    ///*
-    public T remove(T element) {
-        //if single element present
+    /**
+     * remove method.
+     *
+     * @param      element  The element
+     *
+     * @return     { element is returned }.
+     */
+    public T remove(final T element) {
         if (head.next.equals(head) && head.data.equals(element)) {
             T tmp = head.data;
             head = null;
             return tmp;
         }
-
-        //if 1st element needsto be deleted
         if (head.data.equals(element)) {
             head = head.next;
             tail.next = head;
             return element;
         }
-
-        //if last one to be removed
         if (tail.data.equals(element)) {
             Node<T> tempp = head;
             while (!tempp.next.equals(tail)) {
@@ -98,9 +108,6 @@ class CircularLinkedList<T> {
             tail = tempp;
             return element;
         }
-
-
-        //normal cases
         Node<T> currenttmp = head;
         while (!currenttmp.next.data.equals(element)) {
             currenttmp = currenttmp.next;
@@ -111,14 +118,10 @@ class CircularLinkedList<T> {
         return element;
 
     }
-    //*/
-
-
-
 }
 
 /**
- * Solution class.
+ * this is a Solution class.
  */
 public final class Solution {
 
@@ -130,7 +133,7 @@ public final class Solution {
     }
 
     /**
-     * main takes input from user and prints output to console.
+     * this is a main class.
      *
      * @param      args  The commandline arguments
      */
@@ -141,28 +144,23 @@ public final class Solution {
             int noOfPersons = scan.nextInt();
             int mthShift = scan.nextInt();
             CircularLinkedList<Integer> cl = new CircularLinkedList<Integer>();
-
-
-            ///*
             for (int i = 0; i < noOfPersons; i++) {
                 cl.add(i);
             }
-            //*/
-
-
-
             String str = "";
             while (!cl.isEmpty()) {
                 int t2 = 0;
                 for (int i = 0; i < mthShift; i++) {
                     t2 = cl.getNext();
                 }
-                
                 str += cl.remove(t2) + " ";
             }
             System.out.println(str.trim());
-            
         }
     }
 
 }
+
+
+
+
