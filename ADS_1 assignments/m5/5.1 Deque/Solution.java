@@ -172,10 +172,10 @@ final class Solution {
         for (int i = 0; i < n; i++) {
             String[] input = sc.nextLine().split(" ");
             switch (input[0]) {
-            /*case "pushLeft":
+            case "pushLeft":
                 d.pushLeft(input[1]);
                 System.out.println(d.print());
-                break;*/
+                break;
             case "pushRight":
                 d.pushRight(input[1]);
                 System.out.println(d.print());
