@@ -1,14 +1,14 @@
 import java.util.Scanner;
 /**
- * Class for deque.
+ * this is a Class for deque.
  */
 class Deque {
     /**
-     * no of elements.
+     * variable for no of elements.
      */
     private int noOfElements;
     /**
-     * first, last nodes.
+     * variables for first, last nodes.
      */
     private Node first, last;
     /**
@@ -16,15 +16,15 @@ class Deque {
      */
     private class Node {
         /**
-         * data.
+         * variable for data.
          */
         private String data;
         /**
-         * next link.
+         * variable for next link.
          */
         private Node next;
         /**
-         * Constructs the object.
+         * this is a constructor.
          *
          * @param      val   The value
          * @param      link  The link
@@ -35,19 +35,21 @@ class Deque {
         }
     }
     /**
-     * Constructs the object.
+     * this is a constructor.
      */
     Deque() {
         noOfElements = 0;
         first = null;
         last = null;
     }
+
+
     /**
-     * Pushes a left.
+     * method for Push left.
      *
      * @param      value  The value
      */
-    void pushLeft(final String value) {
+    public void pushLeft(final String value) {
         if (first == null) {
             first = new Node(value, null);
             //first.data = value;
@@ -62,12 +64,14 @@ class Deque {
 
         noOfElements++;
     }
+
+
     /**
-     * Pushes a right.
+     * method for Push right.
      *
      * @param      value  The value
      */
-    void pushRight(final String value) {
+    public void pushRight(final String value) {
         if (last == null) {
             last = new Node(value, null);
             // last.data = value;
@@ -82,10 +86,12 @@ class Deque {
         }
         noOfElements++;
     }
+
+
     /**
-     * popleft.
+     * method for popleft.
      */
-    void popLeft() {
+    public void popLeft() {
         if (first != null) {
             Node popped = first;
             first = first.next;
@@ -94,10 +100,12 @@ class Deque {
             noOfElements--;
         }
     }
+
+
     /**
-     * popright.
+     * method for popright.
      */
-    void popRight() {
+    public void popRight() {
         if (last != null) {
             Node temp = null;
             Node popped = last;
@@ -113,12 +121,14 @@ class Deque {
             noOfElements--;
         }
     }
+
+
     /**
      * size.
      *
-     * @return     { description_of_the_return_value }
+     * @return     { size of elements }.
      */
-    int size() {
+    public int size() {
         return noOfElements;
     }
     /**
@@ -126,15 +136,15 @@ class Deque {
      *
      * @return     True if empty, False otherwise.
      */
-    boolean isEmpty() {
+    public boolean isEmpty() {
         return first == null;
     }
     /**
      * prints.
      *
-     * @return     { description_of_the_return_value }
+     * @return     { string is returned }.
      */
-    String print() {
+    public String print() {
         if (noOfElements != 0) {
             String str = "";
             Node temp = first;
@@ -149,8 +159,10 @@ class Deque {
     }
 
 }
+
+
 /**
- * Class for solution.
+ * this is a Class for solution.
  */
 final class Solution {
     /**
@@ -160,7 +172,7 @@ final class Solution {
         //function.
     }
     /**
-     * main.
+     * this is a main function.
      *
      * @param      args  The arguments
      */
@@ -209,3 +221,8 @@ final class Solution {
         }
     }
 }
+
+
+
+
+
