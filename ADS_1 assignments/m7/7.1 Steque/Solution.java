@@ -75,7 +75,7 @@ private Node head, tail;
  */
 private int size;
 /**
- * time complexity of steque is 1.
+ * time complexity of steque() is 1.
  */
     Steque() {
     this.tail = null;
@@ -106,7 +106,8 @@ public void push(final int value) {
 public void pop() {
         if (head != null && tail != null) {
             if (head.getFriend() == null && tail.getFriend() == null) {
-                head = tail = null;
+                tail = null;
+                head = tail;
                 size--;
             } else if (head != null) {
                 head = head.getFriend();
@@ -116,7 +117,7 @@ public void pop() {
     }
 /**
  * inserts element at end of list.
-   time complexity is 1.
+   time complexity of enqueue() is 1.
  *
  * @param      value  int value
  */
