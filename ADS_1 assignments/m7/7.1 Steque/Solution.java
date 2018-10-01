@@ -123,7 +123,8 @@ public void pop() {
  */
 public void enqueue(final int value) {
         if (tail == null && head == null) {
-            head = tail = new Node(value, null);
+            tail = new Node(value, null);
+            head = tail;
         } else if (tail != null) {
             Node oldtail = tail;
             tail = new Node(value, null);
