@@ -88,8 +88,8 @@ public String toString() {
 		sb.append(temp + ", ");
 		temp = temp.getFriend();
 	}
-	return sb.toString().substring(0, sb.length() - 2);
-}
+	
+}return sb.toString().substring(0, sb.length() - 2);
 }
 }
 class Solution {
