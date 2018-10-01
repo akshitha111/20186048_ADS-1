@@ -121,9 +121,8 @@ public void pop() {
  * @param      value  int value
  */
 public void enqueue(final int value) {
-    if (tail == null && head == null) {
-            head =  new Node(value, null);
-            tail =  new Node(value, null);
+        if (tail == null && head == null) {
+            head = tail = new Node(value, null);
         } else if (tail != null) {
             Node oldtail = tail;
             tail = new Node(value, null);
