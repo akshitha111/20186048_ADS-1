@@ -59,7 +59,7 @@ class Node {
      * @return     String representation of the object.
      */
     public String toString() {
-        return value + "";
+        return this.value + "";
     }
 }
 /**
@@ -78,9 +78,9 @@ private int size;
  * time complexity of steque is 1.
  */
     Steque() {
-    tail = null;
-    head = tail;
-    size = 0;
+    this.tail = null;
+    this.head = tail;
+    this.size = 0;
     }
 
 
@@ -104,17 +104,16 @@ public void push(final int value) {
    time complexity for pop() is 1.
  */
 public void pop() {
-    if (head != null && tail != null) {
-        if (head.getFriend() == null && tail.getFriend() == null) {
-            head = null;
-            tail = head;
-            size--;
-    }  else if (head != null) {
-        head = head.getFriend();
-        size--;
+        if (head != null && tail != null) {
+            if (head.getFriend() == null && tail.getFriend() == null) {
+                head = tail = null;
+                size--;
+            } else if (head != null) {
+                head = head.getFriend();
+                size--;
+            }
+        }
     }
-}
-}
 /**
  * inserts element at end of list.
    time complexity is 1.
