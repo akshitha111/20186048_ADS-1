@@ -81,11 +81,13 @@ class Sorting {
 		}
 	}
 
-	public void display() {
+	public String toString() {
+		String s = "";
 		for (int i = 0; i < size; i++) {
-			System.out.print(ranking[i].getCountry() + ",");
+			s += ranking[i].getCountry() + ",";
 		}
-		System.out.println();
+		return s.substring(0, s.length() - 1);
+		
 
 	}
 
@@ -106,6 +108,6 @@ public class Solution {
 			String[] tokens = sc.nextLine().split(",");
 			r.add(new Ranking((tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
 		} r.sort();
-		r.display();
+		System.out.println(r);
 	}
 }
