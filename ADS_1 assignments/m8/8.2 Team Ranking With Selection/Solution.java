@@ -164,7 +164,7 @@ class Sorting {
      * @return     { boolean is returned }.
      */
     private static boolean less(final Ranking v, final Ranking w) {
-        return v.compareTo(w) < 0; 
+        return v.compareTo(w) < 0;
     }
     /**
      * Returns a string representation of the object.
