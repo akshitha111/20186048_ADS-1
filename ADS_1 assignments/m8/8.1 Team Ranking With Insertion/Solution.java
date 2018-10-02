@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Ranking {
 
 	private String country;
@@ -92,10 +93,10 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		Sorting r = new Sorting();
 		while(sc.hasNext()) {
 			String[] tokens = sc.nextLine().split(",");
-			Ranking r = new Ranking(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]));
-
-		}
+			r.add(new Ranking((tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
+		} r.sort();
 	}
 }
