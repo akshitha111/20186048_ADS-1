@@ -143,16 +143,28 @@ class Sorting {
         }
 
     }
-
-    private static void exch(Ranking[] a, int i, int j)
-    {
+    /**
+     * function for exchange.
+     * time complexity is N.
+     * @param      a     { ranking variable a }.
+     * @param      i     { ranking variable i }.
+     * @param      j     { ranking variable j }.
+     */
+    private static void exch(final Ranking[] a, final int i, final int j) {
     Ranking swap = a[i];
     a[i] = a[j];
     a[j] = swap;
     }
-
-    private static boolean less(Ranking v, Ranking w)
-    { return v.compareTo(w) < 0; 
+    /**
+     * this is a less function.
+     *
+     * @param      v     { ranking variable v}.
+     * @param      w     { ranking variable w }.
+     *
+     * @return     { boolean is returned }.
+     */
+    private static boolean less(final Ranking v, final Ranking w) {
+        return v.compareTo(w) < 0; 
     }
     /**
      * Returns a string representation of the object.
