@@ -134,7 +134,7 @@ class Sorting {
     public void sort() {
         for (int i = 0; i < size; i++) {
             int min = i;
-            for (int j = i+1; j < size; j++) {
+            for (int j = i + 1; j < size; j++) {
                  if (less(ranking[j], ranking[min])) {
                  min = j;
              }
