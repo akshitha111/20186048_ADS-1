@@ -71,7 +71,7 @@ class Ranking {
      * time complexity is 1.
      * @param      that  The that
      *
-     * @return     { returns the value }.
+     * @return     { returns int value }.
      */
     public int compareTo(final Ranking that) {
         if (this.getWins() < that.getWins()) {
