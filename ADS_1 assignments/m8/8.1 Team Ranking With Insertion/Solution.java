@@ -82,7 +82,7 @@ class Sorting {
 	}
 
 	public void display() {
-		for (int i = 0; i < size-1; i++) {
+		for (int i = 0; i < size; i++) {
 			System.out.print(ranking[i].getCountry() + ",");
 		}
 
