@@ -81,6 +81,12 @@ class Sorting {
 		}
 	}
 
+	public void display() {
+		for (int i = 0; i < size; i++) {
+			System.out.println(ranking[i].getCountry());
+		}
+	}
+
 }
 
 
@@ -98,6 +104,6 @@ public class Solution {
 			String[] tokens = sc.nextLine().split(",");
 			r.add(new Ranking((tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
 		} r.sort();
-		System.out.println(r);
+		System.out.println();
 	}
 }
