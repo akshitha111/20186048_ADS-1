@@ -83,7 +83,7 @@ class Sorting {
 
 	public void display() {
 		for (int i = 0; i < size; i++) {
-			System.out.println(ranking[i].getCountry());
+			System.out.print(ranking[i].getCountry() + ",");
 		}
 	}
 
