@@ -8,7 +8,7 @@ class Merge {
      */
     private final int x = 7;
     /**
-     * Constructs the object.
+     * this is a constructor.
      * time complexity is 1.
      */
     Merge() {
