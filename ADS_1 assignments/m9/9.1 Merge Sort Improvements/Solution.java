@@ -106,8 +106,8 @@ class Merge {
      * @param      i     {Integer i}
      * @param      j     {Integer j}
      */
-    public void exch(final Object[] a,
-        final int i, final int j) {
+    public void exch(final Object[] a, final int i,
+     final int j) {
         Object swap = a[i];
         a[i] = a[j];
         a[j] = swap;
@@ -115,8 +115,8 @@ class Merge {
     /**
      * {Method to check which one is smaller of the two}.
      *
-     * @param      a     {Comparable}.
-     * @param      b     {Comparable}.
+     * @param      a     {Comparable parameter}.
+     * @param      b     {Comparable parameter}.
      *
      * @return     {Boolean value}.
      */
