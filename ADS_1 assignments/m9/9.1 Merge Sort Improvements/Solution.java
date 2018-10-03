@@ -173,9 +173,7 @@ class Merge {
         return str;
     }
 }
-/**
- * this is a Class for solution.
- */
+
 public final class Solution {
     /**
      * default constructor.
