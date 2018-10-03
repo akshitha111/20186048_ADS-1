@@ -11,7 +11,7 @@ class Merge {
      * Constructs the object.
      */
     Merge() {
-        //Unused Constructor.
+        //this is an Unused Constructor.
     }
     /**
      * {Method to merge two arrays}.
@@ -47,16 +47,18 @@ class Merge {
      * time complexity for this function is logN.
      * @param      array  The array
      * @param      aux    The auxiliary array
-     * @param      lo     The lower value
-     * @param      hi     The higher value
+     * @param      lo     The low value
+     * @param      hi     The high value
      */
     public void sort(final Comparable[] array, final Comparable[] aux,
         final int lo, final int hi) {
+
         if (hi <= lo + x) {
             insertionSort(aux, lo, hi);
             System.out.println("Insertion sort method invoked...");
             return;
         }
+
         int mid = lo + (hi - lo) / 2;
         sort(aux, array, lo, mid);
         sort(aux, array, mid + 1, hi);
@@ -90,8 +92,8 @@ class Merge {
      * @param      lo    The lower value
      * @param      hi    The higher value
      */
-    public void insertionSort(final Comparable[] a,
-        final int lo, final int hi) {
+    public void insertionSort(final Comparable[] a, final int lo,
+     final int hi) {
         for (int i = lo; i <= hi; i++) {
             for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
                 exch(a, j, j - 1);
@@ -102,8 +104,8 @@ class Merge {
     /**
      * {Method to exchange two elements in the array}.
      * time complexity for this function is N.
-     * @param      a     {Array of object}
-     * @param      i     {Integer i}
+     * @param      a     {Array of objects}
+     * @param      i     {Integer  i}
      * @param      j     {Integer j}
      */
     public void exch(final Object[] a, final int i,
