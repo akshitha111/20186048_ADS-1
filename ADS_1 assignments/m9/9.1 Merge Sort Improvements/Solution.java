@@ -164,13 +164,15 @@ class Merge {
      * @return     {String}
      */
     public String display(final Comparable[] a) {
-        String str = "[";
+
+        String st = "[";
         int i;
+
         for (i = 0; i < a.length - 1; i++) {
-            str += a[i] + ", ";
+            st += a[i] + ", ";
         }
-        str += a[i] + "]";
-        return str;
+        st += a[i] + "]";
+        return st;
     }
 }
 
@@ -184,8 +186,9 @@ public final class Solution {
     private Solution() {
         //Unused Constructor.
     }
+
     /**
-     * {Client Program}.
+     * {This is a Client Program}.
      *
      * @param      args  The arguments
      */
