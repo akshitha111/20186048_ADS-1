@@ -9,12 +9,13 @@ class Merge {
     private final int x = 7;
     /**
      * Constructs the object.
+     * time complexity is 1.
      */
     Merge() {
         //this is an Unused Constructor.
     }
     /**
-     * {Method to merge two arrays}.
+     * {this is the Method to merge two arrays}.
      * time complexity for this function is N.
      * @param      array  The array
      * @param      aux    The auxiliary
@@ -131,7 +132,7 @@ class Merge {
      *
      * @param      a     {Comparable array}
      *
-     * @return     True if sorted, False otherwise.
+     * @return     returns True if sorted, False otherwise.
      */
     public boolean isSorted(final Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
@@ -157,7 +158,7 @@ class Merge {
     }
     /**
      * {Method to print the values of the object array}.
-     *
+     * time complexity is 1.
      * @param      a     {Name of object array}
      *
      * @return     {String}
@@ -194,7 +195,7 @@ public final class Solution {
             String[] tokens = scan.nextLine().split(",");
             merge.sort(tokens);
             System.out.println(merge.display(tokens));
-            //System.out.println();
+            System.out.println();
         }
     }
 }
