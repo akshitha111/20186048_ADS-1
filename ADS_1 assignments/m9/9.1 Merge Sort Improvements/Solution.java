@@ -191,8 +191,8 @@ public final class Solution {
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             merge.sort(tokens);
-            //System.out.println(merge.display(tokens));
-            System.out.println();
+            System.out.println(merge.display(tokens));
+            //System.out.println();
         }
     }
 }
