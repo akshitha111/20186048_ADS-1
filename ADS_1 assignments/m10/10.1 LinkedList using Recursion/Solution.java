@@ -3,10 +3,10 @@ import java.util.*;
  * this is a Class for node.
  */
 class Node{
-	String valueue;
+	String value;
 	Node next;
 	Node(String v) {
-		this.valueue=v;
+		this.value = v;
 	}
 }
 /**
@@ -17,7 +17,7 @@ class LinkedList {
 	private int size;
 	LinkedList() {
 		head = null;
-		size =0;
+		size = 0;
 	}
 	/**
 	 * { insertAt function with two parameters }
@@ -32,7 +32,7 @@ class LinkedList {
 		throw new Exception();			
 		}
 		Node obj = new Node(value);
-		head=insertAt(position,head,obj,0);
+		head = insertAt(position, head, obj, 0);
 	}
 	/**
 	 * { insertAt function with 4 parameters }
@@ -42,13 +42,13 @@ class LinkedList {
 	 * @param      obj        The Node object
 	 * @param      count      The int count
 	 *
-	 * @return     { description_of_the_return_valueue }
+	 * @return     { Node object is returned }
 	 *
 	 * @throws     Exception  { if there is invalid index }
 	 */
 	public Node insertAt(int position, Node first, Node obj, int count) throws Exception{
 		if (position == count) {
-			obj.next =first;
+			obj.next = first;
 			size++;
 			return obj;
 		}
@@ -68,11 +68,11 @@ class LinkedList {
 	 * @param      current   The current
 	 */
 	public void reverse(Node previous, Node current){
-		if (current!=null) {
+		if (current != null) {
 			reverse(current,current.next);
-			current.next= previous;
+			current.next = previous;
 		}else {
-			head =previous;
+			head = previous;
 		}
 	}
 	/**
@@ -81,11 +81,11 @@ class LinkedList {
 	public void show(){
 		Node temp = head;
 		String str = "";
-		while(temp!=null){
-			str += temp.valueue+ ", ";
+		while(temp != null){
+			str += temp.value+ ", ";
 			temp = temp.next;
 		}
-		System.out.println(str.substring(0, str.length()-2));
+		System.out.println(str.substring(0, str.length() - 2));
 
 	}
 	}
