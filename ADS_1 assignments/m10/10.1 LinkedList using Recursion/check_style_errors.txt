@@ -79,7 +79,7 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:77:43: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:77:43: '}' at column 15 should have line break before. [RightCurly]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:77:43: '}' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:79: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:79: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:82: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:83:36: 'try' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m10\10.1 LinkedList using Recursion\Solution.java:83:36: '{' is not preceded with whitespace. [WhitespaceAround]

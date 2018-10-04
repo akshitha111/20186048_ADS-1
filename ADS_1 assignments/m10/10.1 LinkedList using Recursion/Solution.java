@@ -76,7 +76,7 @@ class Solution {
 				ll.insertAt(Integer.parseInt(tokens[1]),tokens[2]);
 				ll.show();}
 				catch (Exception e) {
-					System.out.println("Can't insert at this positionition.");
+					System.out.println("Can't insert at this position.");
 				}
 				break;
 				case "reverse" : 
