@@ -26,7 +26,7 @@ class Student {
 		this.reservationCatergory = rc;
 	}
 
-	public void setName(final String name) {
+	/*public void setName(final String name) {
 		this.name = name;
 	}
 
@@ -60,7 +60,7 @@ class Student {
 
 	public void setReservationCat(final String reservationCatergory) {
 		this.reservationCatergory = reservationCatergory;
-	}
+	}*/
 
 	public String getName() {
 		return this.name;
@@ -213,9 +213,9 @@ class Sorting {
 public final class Solution {
 	private Solution() {
 
-	}public static void main(final String[] args) {
-		Sorting s = new Sorting();
+	}public static void main(final String[] args) {		
 		Scanner sc = new Scanner(System.in);
+		Sorting s = new Sorting();
 		for(int i = 0; i < 6; i++) {
 		int a = sc.nextInt();
 	}
@@ -224,7 +224,7 @@ public final class Solution {
 		//String[] check = tokens[1].split("-"); 
 		//System.out.println(tokens.toString());
 		//Student[] = new Student(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), tokens[8]);
-		s.add(new Student((tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), Integer.parseInt(tokens[8]), (tokens[9])));
+		s.add(new Student((tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), (tokens[8])));
 	} s.sort();
 	System.out.println(s);
 }
