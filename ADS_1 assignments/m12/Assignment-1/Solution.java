@@ -222,7 +222,8 @@ public final class Solution {
 	while(sc.hasNext()) {
 		String[] tokens = sc.nextLine().replace("-", ",").split(",");
 		//String[] check = tokens[1].split("-"); 
-		s.add(new Student(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), tokens[8]));
+		System.out.println(tokens);
+		s.add(new Student(tokens[1], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), tokens[8]));
 	} s.sort();
 	System.out.println(s);
 }
