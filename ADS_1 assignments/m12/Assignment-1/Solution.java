@@ -139,11 +139,11 @@ class Sorting {
         String s = "";
         for (int i = 0; i < size; i++) {
             s += student[i].getName() + "," + student[i].getTotal() + "," + student[i].getReservationCat() + "\n";
-            for(i = 0; i < s.length(); i++) {
-            	System.out.println(s);
-            }
 
         }
+        for(int i = 0; i < s.length(); i++) {
+            	System.out.println(s);
+            }
         return s.substring(0, s.length() - 1);
     }
 
