@@ -119,11 +119,11 @@ class Student {
 		} else if(this.getSubjectOne() > that.getSubjectOne()) {
 			return -1;
 		} else {
-			/*if(this.getYear() < that.getYear()) {
+			if(this.getYear() < that.getYear()) {
 				return -1;
-			} else if(this.getYear() > that.getyear()) {
+			} else if(this.getYear() > that.getYear()) {
 				return 1;
-			}*/ //else {
+			}
 				if(this.getMonth() < that.getMonth()) {
 					return -1;
 				} else if(this.getMonth() > that.getMonth()) {

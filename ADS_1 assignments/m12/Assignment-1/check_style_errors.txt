@@ -63,6 +63,8 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:114:34: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:117:27: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:119:26: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:122:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:124:34: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:127:35: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:129:42: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:132:43: 'if' is not followed by whitespace. [WhitespaceAfter]
@@ -100,4 +102,4 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:225:253: '6' is a magic number. [MagicNumber]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m12\Assignment-1\Solution.java:230: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 100 errors.
+Checkstyle ends with 102 errors.
