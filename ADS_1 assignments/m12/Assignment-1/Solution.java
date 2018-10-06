@@ -178,6 +178,7 @@ class Sorting {
         String s = "";
         for (int i = 0; i < size; i++) {
             s += student[i].getName() + "," + student[i].getTotal() + "," + student[i].getReservationCat();
+            System.out.println();
         }
         return s.substring(0, s.length() - 1);
     }
