@@ -217,13 +217,14 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		Sorting s = new Sorting();
 		//for(int i = 0; i < 6; i++) {
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-		int d = sc.nextInt();
-		int e = sc.nextInt();
-		int f = sc.nextInt();
+		int a = Integer.parseInt(sc.nextLine());
+		int b = Integer.parseInt(sc.nextLine());
+		int c = Integer.parseInt(sc.nextLine());
+		int d = Integer.parseInt(sc.nextLine());
+		int e = Integer.parseInt(sc.nextLine());
+		int f = Integer.parseInt(sc.nextLine());
 	//}
+
 	while(sc.hasNext()) {
 		String[] tokens = sc.nextLine().replace("-", ",").split(",");
 		//String[] check = tokens[1].split("-"); 
