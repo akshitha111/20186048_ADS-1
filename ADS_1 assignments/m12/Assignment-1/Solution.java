@@ -209,19 +209,19 @@ class Sorting {
 	
 
 
-public class Solution {
-	Solution() {
+public final class Solution {
+	private Solution() {
 
-	}public static void main(String[] args) {
+	}public static void main(final String[] args) {
 		Sorting s = new Sorting();
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i < 6; i++) {
 		int a = sc.nextInt();
 	}
 	while(sc.hasNext()) {
-		String[] tokens = sc.nextLine().split(",");
-		String[] check = tokens[1].split("-"); 
-		s.add(new Student(tokens[0], Integer.parseInt(check[0]), Integer.parseInt(check[1]), Integer.parseInt(check[2]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), tokens[6]));
+		String[] tokens = sc.nextLine().replace("-", ",").split(",");
+		//String[] check = tokens[1].split("-"); 
+		s.add(new Student(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), tokens[8]));
 	} s.sort();
 	System.out.println(s);
 }
