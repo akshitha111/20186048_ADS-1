@@ -220,8 +220,7 @@ public class Solution {
 	}
 	while(sc.hasNext()) {
 		String[] tokens = sc.nextLine().split(",");
-		String[] check = new String[tokens[1].length()];
-		check = tokens[1].split("-");
+		String[] check = tokens[1].split("-"); 
 		s.add(new Student(tokens[0], Integer.parseInt(check[0]), Integer.parseInt(check[1]), Integer.parseInt(check[2]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), tokens[6]));
 	} s.sort();
 	System.out.println(s);
