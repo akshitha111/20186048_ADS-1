@@ -156,7 +156,8 @@ class Sorting {
 	}
 
 	public void add(final Student s) {
-		student[size++] = s;
+		student[size] = s;
+		size++;
 	}
 
 	public void sort() {
