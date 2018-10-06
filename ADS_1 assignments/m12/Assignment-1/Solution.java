@@ -216,9 +216,14 @@ public final class Solution {
 	}public static void main(final String[] args) {		
 		Scanner sc = new Scanner(System.in);
 		Sorting s = new Sorting();
-		for(int i = 0; i < 6; i++) {
+		//for(int i = 0; i < 6; i++) {
 		int a = sc.nextInt();
-	}
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int d = sc.nextInt();
+		int e = sc.nextInt();
+		int f = sc.nextInt();
+	//}
 	while(sc.hasNext()) {
 		String[] tokens = sc.nextLine().replace("-", ",").split(",");
 		//String[] check = tokens[1].split("-"); 
