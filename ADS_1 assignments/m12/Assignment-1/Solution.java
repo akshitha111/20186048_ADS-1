@@ -180,7 +180,7 @@ class Sorting {
             s += student[i].getName() + "," + student[i].getTotal() + "," + student[i].getReservationCat() + "\n";
 
         }
-        //System.out.println();
+        System.out.println();
         return s.substring(0, s.length() - 1);
     }
 
