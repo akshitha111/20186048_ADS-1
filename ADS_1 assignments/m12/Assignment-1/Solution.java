@@ -139,6 +139,9 @@ class Sorting {
         String s = "";
         for (int i = 0; i < size; i++) {
             s += student[i].getName() + "," + student[i].getTotal() + "," + student[i].getReservationCat() + "\n";
+            for(i = 0; i < s.length(); i++) {
+            	System.out.println(s);
+            }
 
         }
         return s.substring(0, s.length() - 1);
@@ -161,7 +164,6 @@ class Sorting {
 
 public final class Solution {
 	private Solution() {
-
 	}public static void main(final String[] args) {		
 		Scanner sc = new Scanner(System.in);
 		Sorting s = new Sorting();
@@ -176,7 +178,7 @@ public final class Solution {
 		s.add(new Student((tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]), Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), Integer.parseInt(tokens[6]), Integer.parseInt(tokens[7]), (tokens[8])));
 	} s.sort();
 	System.out.println(s);
-	
+
 }
 }
 	
