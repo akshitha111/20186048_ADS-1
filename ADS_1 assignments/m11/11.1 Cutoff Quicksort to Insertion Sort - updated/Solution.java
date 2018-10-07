@@ -1,12 +1,8 @@
 import java.util.Scanner;
 /**
- * { item_description }
- */
-/**
  * this is a sorting class.
  */
 class Sorting {
-
     /**
      * Constructs the object.
      * time complexity is 1.
@@ -16,8 +12,6 @@ class Sorting {
          * default constructor.
          */
     }
-
-
     /**
      * { insertion sort fucntion }
      * time complexity for this method is (N^2).
@@ -121,17 +115,18 @@ class Sorting {
                     break;
                 }
             }
+
             if (i >= j) {
                 break;
             }
-            
+           swap(arr, i, j); 
         }
         swap(arr, low, j);
         return j;
     }
 
 
-    /**.
+    /**
      * { function to find which element is less }
      * time complexity is 1.
      * @param      a     { element }
@@ -148,16 +143,16 @@ class Sorting {
  * this is a solution class.
  */
 public final class Solution {
-    /**.
+    /**
      * Constructs the object.
      */
     private Solution() {
-        /**.
+        /**
          * { unused constructor }.
          */
     }
-    /**.
-     * { Client program }     
+    /**
+     * { Client program }
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
