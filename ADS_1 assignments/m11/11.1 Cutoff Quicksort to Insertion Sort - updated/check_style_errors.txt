@@ -1,6 +1,5 @@
 Starting audit...
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:128: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:161: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:127: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:160: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.

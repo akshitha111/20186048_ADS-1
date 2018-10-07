@@ -21,7 +21,6 @@ class Sorting {
     /**
      * { insertion sort fucntion }
      * time complexity for this method is (N^2).
-     * 
      * @param      arr  The arguments
      * @param      low  The arguments
      * @param      high  The arguments
