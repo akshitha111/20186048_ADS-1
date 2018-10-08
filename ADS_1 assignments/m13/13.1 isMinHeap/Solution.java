@@ -58,7 +58,7 @@ public class Solution {
 		case "Float":
 		while(n > 0) {
 			String s = sc.nextLine();
-			if(s == "") {
+			if(s.equals("")) {
 				System.out.println("false");
 			} else {
 			String[] line = sc.nextLine().split(",");
