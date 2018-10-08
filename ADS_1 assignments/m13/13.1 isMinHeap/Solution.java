@@ -5,7 +5,7 @@ class MinHeap<E extends Comparable<E>>  {
 		this.arr = str;
 	}
 	public boolean isMinHeap() {
-		for(int i = 0; i < arr.length; i++) {
+		for(int i = 0; i < arr.length - 1; i++) {
 			if (!less(arr[i], arr[i + 1])) {
 				return false;
 			}
