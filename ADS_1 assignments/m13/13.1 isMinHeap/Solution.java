@@ -26,13 +26,13 @@ public class Solution {
 		int n = Integer.parseInt(sc.nextLine());
 		switch (st) {
 		case "String":		
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
 			MinHeap<String> mh = new MinHeap<String>(line);
 				System.out.println(mh.isMinHeap());
 		}break;
 		case "Integer":
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
 			Integer[] sr = new Integer[line.length];
 			for (i = 0; i < line.length; i++) {
@@ -41,7 +41,7 @@ public class Solution {
 				System.out.println(mh.isMinHeap());
 		}break;
 		case "Double":
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
 			Double[] d = new Double[line.length];
 			for (i = 0; i < line.length; i++) {
@@ -51,7 +51,7 @@ public class Solution {
 			System.out.println(mh.isMinHeap());
 		}break;
 		case "Float":
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
 			Float[] f = new Float[line.length];
 			for (i = 0; i < line.length; i++) {
