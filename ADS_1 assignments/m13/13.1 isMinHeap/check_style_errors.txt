@@ -28,6 +28,6 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m13\13.1 isMinHeap\Solution.java:57:18: '}' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m13\13.1 isMinHeap\Solution.java:59:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m13\13.1 isMinHeap\Solution.java:61:27: 'if' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m13\13.1 isMinHeap\Solution.java:73:18: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m13\13.1 isMinHeap\Solution.java:74:18: '}' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 30 errors.

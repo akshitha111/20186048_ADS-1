@@ -60,6 +60,7 @@ public class Solution {
 			String s = sc.nextLine();
 			if(s.equals("")) {
 				System.out.println("false");
+				break;
 			} else {
 			String[] line = s.split(",");
 			Float[] f = new Float[line.length];
