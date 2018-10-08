@@ -37,18 +37,28 @@ public class Solution {
 			Integer[] sr = new Integer[line.length];
 			for (i = 0; i < line.length; i++) {
 					sr[i] = Integer.parseInt(line[i]);
-				}
-			System.out.println(line);
+				}MinHeap<Integer> mh = new MinHeap<Integer>(sr);
+				System.out.println(mh.isMinHeap());
 		}break;
 		case "Double":
-		n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
+			Double[] d = new Double[line.length];
+			for (i = 0; i < line.length; i++) {
+				d[i] = Double.parseDouble(line[i]);
+			}
+			MinHeap<Double> mh = new MinHeap<Double>(d);
+			System.out.println(mh.isMinHeap());
 		}break;
 		case "Float":
-		n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
+			Float[] f = new Float[line.length];
+			for (i = 0; i < line.length; i++) {
+				f[i] = Float.parseFloat(line[i]);
+			}
+			MinHeap<Float> mh = new MinHeap<Float>(f);
+			System.out.println(mh.isMinHeap());
 		}break;
 	}
 	}
