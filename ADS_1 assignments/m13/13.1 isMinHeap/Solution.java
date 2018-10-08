@@ -22,10 +22,10 @@ public class Solution {
 
 	} public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
-		switch (s) {
-		case "String":
+		String st = sc.nextLine();
 		int n = Integer.parseInt(sc.nextLine());
+		switch (st) {
+		case "String":		
 		for (int i = 0; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
 			MinHeap<String> mh = new MinHeap<String>(line);
