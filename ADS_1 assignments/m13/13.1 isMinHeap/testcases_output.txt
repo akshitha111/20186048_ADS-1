@@ -37,7 +37,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "1
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:39)
+	at Solution.main(Solution.java:40)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -49,7 +49,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "1
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.base/java.lang.Double.parseDouble(Double.java:543)
-	at Solution.main(Solution.java:48)
+	at Solution.main(Solution.java:50)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -61,5 +61,5 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "1
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
 	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
 	at java.base/java.lang.Float.parseFloat(Float.java:455)
-	at Solution.main(Solution.java:58)
+	at Solution.main(Solution.java:61)
 ----------------------------------------

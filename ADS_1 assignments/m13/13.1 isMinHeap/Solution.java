@@ -30,6 +30,7 @@ public class Solution {
 			String[] line = sc.nextLine().split(" ");
 			MinHeap<String> mh = new MinHeap<String>(line);
 				System.out.println(mh.isMinHeap());
+				n--;
 		}break;
 		case "Integer":
 		while(n > 0) {
@@ -39,6 +40,7 @@ public class Solution {
 					sr[i] = Integer.parseInt(line[i]);
 				}MinHeap<Integer> mh = new MinHeap<Integer>(sr);
 				System.out.println(mh.isMinHeap());
+				n--;
 		}break;
 		case "Double":
 		while(n > 0) {
@@ -49,6 +51,7 @@ public class Solution {
 			}
 			MinHeap<Double> mh = new MinHeap<Double>(d);
 			System.out.println(mh.isMinHeap());
+			n--;
 		}break;
 		case "Float":
 		while(n > 0) {
@@ -59,6 +62,7 @@ public class Solution {
 			}
 			MinHeap<Float> mh = new MinHeap<Float>(f);
 			System.out.println(mh.isMinHeap());
+			n--;
 		}break;
 	}
 	}
