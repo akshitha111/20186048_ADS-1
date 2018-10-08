@@ -9,11 +9,13 @@ class MinHeap<E extends Comparable<E>>  {
 			if (!less(arr[i], arr[i + 1])) {
 				return false;
 			}
-		}return true;
+		}
+		return true;
 	}
-		public boolean less(E i, E j) {
-		boolean a =  i.compareTo(j) <= 0;
-		return a;
+	public boolean less(E i, E j) {
+		return i.compareTo(j) <= 0;
+		// System.out.println(a);
+		// return a;
 		}
 	}
 
@@ -27,14 +29,14 @@ public class Solution {
 		switch (st) {
 		case "String":		
 		while(n > 0) {
-			String[] line = sc.nextLine().split(" ");
+			String[] line = sc.nextLine().split(",");
 			MinHeap<String> mh = new MinHeap<String>(line);
 				System.out.println(mh.isMinHeap());
 				n--;
 		}break;
 		case "Integer":
 		while(n > 0) {
-			String[] line = sc.nextLine().split(" ");
+			String[] line = sc.nextLine().split(",");
 			Integer[] sr = new Integer[line.length];
 			for (int i = 0; i < line.length; i++) {
 					sr[i] = Integer.parseInt(line[i]);
@@ -44,7 +46,7 @@ public class Solution {
 		}break;
 		case "Double":
 		while(n > 0) {
-			String[] line = sc.nextLine().split(" ");
+			String[] line = sc.nextLine().split(",");
 			Double[] d = new Double[line.length];
 			for (int i = 0; i < line.length; i++) {
 				d[i] = Double.parseDouble(line[i]);
@@ -55,7 +57,7 @@ public class Solution {
 		}break;
 		case "Float":
 		while(n > 0) {
-			String[] line = sc.nextLine().split(" ");
+			String[] line = sc.nextLine().split(",");
 			Float[] f = new Float[line.length];
 			for (int i = 0; i < line.length; i++) {
 				f[i] = Float.parseFloat(line[i]);
