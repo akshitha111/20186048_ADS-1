@@ -32,9 +32,12 @@ public class Solution {
 				System.out.println(mh.isMinHeap());
 		}break;
 		case "Integer":
-		n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
 			String[] line = sc.nextLine().split(" ");
+			Integer[] sr = new Integer[line.length];
+			for (i = 0; i < line.length; i++) {
+					sr[i] = Integer.parseInt(line[i]);
+				}
 			System.out.println(line);
 		}break;
 		case "Double":
