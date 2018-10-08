@@ -57,6 +57,10 @@ public class Solution {
 		}break;
 		case "Float":
 		while(n > 0) {
+			String s = sc.nextLine();
+			if(s == "") {
+				System.out.println("false");
+			} else {
 			String[] line = sc.nextLine().split(",");
 			Float[] f = new Float[line.length];
 			for (int i = 0; i < line.length; i++) {
@@ -65,6 +69,7 @@ public class Solution {
 			MinHeap<Float> mh = new MinHeap<Float>(f);
 			System.out.println(mh.isMinHeap());
 			n--;
+		}
 		}break;
 	}
 	}
