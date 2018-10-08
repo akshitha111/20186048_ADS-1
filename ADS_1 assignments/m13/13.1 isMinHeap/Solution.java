@@ -61,7 +61,7 @@ public class Solution {
 			if(s.equals("")) {
 				System.out.println("false");
 			} else {
-			String[] line = sc.nextLine().split(",");
+			String[] line = s.split(",");
 			Float[] f = new Float[line.length];
 			for (int i = 0; i < line.length; i++) {
 				f[i] = Float.parseFloat(line[i]);

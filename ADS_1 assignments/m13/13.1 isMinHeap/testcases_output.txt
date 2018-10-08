@@ -63,6 +63,7 @@ true
 false
 Your Output: 
 true
+true
 false
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
