@@ -7,8 +7,10 @@ public final class Solution {
      * this is a constructor.
      */
     private Solution() {
+        //unused constructor.
 
     }
+
     /**
      * Client program.
      *
