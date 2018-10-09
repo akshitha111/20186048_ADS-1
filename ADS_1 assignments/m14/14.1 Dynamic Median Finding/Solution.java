@@ -1,11 +1,22 @@
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * this is a constructor.
+	 */
 
     private Solution () {
 
     }
+    /**
+     * Client program.
+     *
+     * @param      args  The arguments
+     */
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
 
@@ -32,12 +43,12 @@ public class Solution {
 
             if (minpq.size() == maxpq.size()) {
                 median = (minpq.min() + maxpq.max()) / 2;
-               
+                System.out.println(median);
             }
 
             if (maxpq.size() > minpq.size()) {
                 median = maxpq.max();
-                
+                System.out.println(median);
             }
 
             if (minpq.size() > maxpq.size()) {
