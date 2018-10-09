@@ -3,11 +3,10 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
-	/**
-	 * this is a constructor.
-	 */
-
-    private Solution () {
+    /**
+     * this is a constructor.
+     */
+    private Solution() {
 
     }
     /**
@@ -16,7 +15,7 @@ public class Solution {
      * @param      args  The arguments
      */
 
-    public static void main(final String[] args) {
+    public final static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
 
