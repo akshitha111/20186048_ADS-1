@@ -14,6 +14,8 @@ public final class Solution {
 
     /**
      * Client program.
+     *
+     * @param      args  The arguments
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
