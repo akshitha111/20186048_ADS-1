@@ -1,9 +1,4 @@
 Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:18:44: Expected @param tag for 'args'. [JavadocMethod]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:472: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:473:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:473:30: '(' is followed by whitespace. [ParenPad]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:473:31: Parameter a should be final. [FinalParameters]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m14\14.2 student reservation system\Solution.java:474:44: Must have at least one statement. [EmptyBlock]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.

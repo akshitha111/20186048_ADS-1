@@ -469,9 +469,15 @@ final class Heap {
         pq[j - 1] = swap;
     }
 
-    
-    private static void show( Comparable[] a) {
+    /**
+     * to display the data.
+     * Time complexity is N.
+     *
+     * @param      a     { comparable value }
+     */
+    private static void show(final Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
         }
     }
 }
