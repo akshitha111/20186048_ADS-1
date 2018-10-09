@@ -37,7 +37,6 @@ public final class Solution {
             }
             if (maxpq.size() - minpq.size() > 1) {
                 minpq.insert(maxpq.delMax());
-                
             }
 
             if (minpq.size() == maxpq.size()) {
