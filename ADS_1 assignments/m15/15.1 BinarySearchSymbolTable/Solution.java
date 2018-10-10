@@ -233,7 +233,7 @@ public class Solution {
 					System.out.println(bs);
 					break;
 				case "get":
-					System.out.println(bs.get(tokens[1]));
+					System.out.println(bs.get(check[1]));
 					break;
 				default:
 					break;
