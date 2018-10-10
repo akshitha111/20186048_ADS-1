@@ -118,12 +118,21 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:155: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:156: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:157: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:164:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:164:31: Parameter lo should be final. [FinalParameters]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:164:39: Parameter hi should be final. [FinalParameters]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:165: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:165: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:165: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:166: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:166: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:166: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:168: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:169: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:170: 'for' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:170: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:172: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:173: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:176:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:180:5: Missing a Javadoc comment. [JavadocMethod]
@@ -146,4 +155,4 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:211:31: 'switch' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:225: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 146 errors.
+Checkstyle ends with 155 errors.

@@ -157,7 +157,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         else              return rank(hi) - rank(lo);
     }
 
-    /*public Iterable<Key> keys() {
+    public Iterable<Key> keys() {
         return keys(min(), max());
     }
 
@@ -171,7 +171,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
             queue.enqueue(keys[i]);
         if (contains(hi)) queue.enqueue(keys[rank(hi)]);
         return queue; 
-    }*/
+    }
 
     private boolean check() {
         return isSorted() && rankCheck();
