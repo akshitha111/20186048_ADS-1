@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m4\4.1 Balanced Paranthesis\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
