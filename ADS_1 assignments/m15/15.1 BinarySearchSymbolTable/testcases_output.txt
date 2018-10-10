@@ -15,7 +15,12 @@ S 0
 X 7
 null
 Your Output: 
-
+X
+E
+2
+true
+BinarySearchSymbolTable@34ce8af7
+12
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -35,7 +40,16 @@ O
 false
 null
 Your Output: 
-
+Y
+BinarySearchSymbolTable@34ce8af7
+null
+null
+null
+null
+null
+0
+false
+null
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -60,7 +74,18 @@ true
 5
 T
 Your Output: 
-
+X
+BinarySearchSymbolTable@34ce8af7
+3
+3
+3
+3
+3
+3
+3
+true
+1
+O
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -83,7 +108,12 @@ true
 13
 P
 Your Output: 
-
+BinarySearchSymbolTable@34ce8af7
+Y
+4
+true
+1
+I
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -101,5 +131,10 @@ S 0
 T 6
 Y 1
 Your Output: 
-
+Y
+1
+Y
+8
+true
+BinarySearchSymbolTable@34ce8af7
 ----------------------------------------

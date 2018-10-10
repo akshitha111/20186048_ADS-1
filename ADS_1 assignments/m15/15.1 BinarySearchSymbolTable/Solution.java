@@ -1,14 +1,14 @@
 import java.util.Scanner;
 import java.util.NoSuchElementException;
 class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
-	private final int capacity = 2;
+	private static final int capacity = 2;
 	private Key[] keys;
 	private Value[] values;
 	private int n = 0;
 
-	/*BinarySearchSymbolTable() {
+	BinarySearchSymbolTable() {
 		this(capacity);
-	}*/
+	}
 
 	BinarySearchSymbolTable(int capacity) {
 		keys = (Key[]) new Comparable[capacity];
@@ -193,22 +193,44 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
 
 
 }
+
 public class Solution {
 	private Solution() {
 
 	} public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
-		String line = sc.nextLine();
-		String[] tokens = line.split(" ");
-		switch(tokens[0]) {
-			case "max":
-			case "floor":
-			case "rank":
-			case "deleteMin":
-			case "contains":
-			case "keys":
-			case "get":
+		BinarySearchSymbolTable<String, Integer> bs = new BinarySearchSymbolTable<String, Integer>();
+		String[] tokens = sc.nextLine().split(" ");
+		for (int i = 0; i < tokens.length; i++) {
+			bs.put(tokens[i], i);
+		}
+		while(sc.hasNext()) {
+			String[] check = sc.nextLine().split(" ");
+			switch(check[0]) {
+				case "max":
+					System.out.println(bs.max());
+					break;
+				case "floor":
+					System.out.println(bs.floor(tokens[1]));
+					break;
+				case "rank":
+					System.out.println(bs.rank(tokens[1]));
+					break;
+				case "deleteMin":
+					bs.deleteMin();
+					break;
+				case "contains":
+					System.out.println(bs.contains(tokens[1]));
+					break;
+				case "keys":
+					System.out.println(bs);
+					break;
+				case "get":
+					System.out.println(bs.get(tokens[1]));
+					break;
+				default:
+					break;
+			}
 		}
 	}
 }
