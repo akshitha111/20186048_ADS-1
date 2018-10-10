@@ -1,47 +1,59 @@
 /**
- * { item_description }
+ * { item_description }.
  */
 import java.util.Scanner;
 /**
- * { item_description }
+ * { item_description }.
  */
 import java.util.NoSuchElementException;
 /**
  * Class for binary search symbol table.
  *
- * @param      <Key>    The key
- * @param      <Value>  The value
+ * @param      <Key>    The key.
+ * @param      <Value>  The value.
  */
 class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
-	private static final int capacity = 2;
-	private Key[] keys;
-	private Value[] values;
-	private int n = 0;
+    /**
+     * { var_description }.
+     */
+    private static final int INIT_CAPACITY = 2;
+    /**
+     * { var_description }.
+     */
+    private Key[] keys;
+    /**
+     * { var_description }.
+     */
+    private Value[] values;
+    /**
+     * { var_description }.
+     */
+    private int n = 0;
 
-	/**
-	 * Constructs the object.
-	 */
-	BinarySearchSymbolTable() {
-		this(capacity);
-	}
+    /**
+     * Constructs the object.
+     */
+    BinarySearchSymbolTable() {
+        this(INIT_CAPACITY);
+    }
 
-	/**
-	 * Constructs the object.
-	 *
-	 * @param      capacity  The capacity
-	 */
-	BinarySearchSymbolTable(int capacity) {
-		keys = (Key[]) new Comparable[capacity];
-		values = (Value[]) new Object[capacity];
-	}
-	/**
-	 * { function_description }
-	 *
-	 * @param      capacity  The capacity
-	 */
-	private void resize(int capacity) {
-        Key[]   tempk = (Key[])   new Comparable[capacity];
-        Value[] tempv = (Value[]) new Object[capacity];
+    /**
+     * Constructs the object.
+     *
+     * @param      INIT_CAPACITY  The INIT_CAPACITY
+     */
+    BinarySearchSymbolTable(final int INIT_CAPACITY) {
+        keys = (Key[]) new Comparable[INIT_CAPACITY];
+        values = (Value[]) new Object[INIT_CAPACITY];
+    }
+    /**
+     * { function_description }.
+     *
+     * @param      INIT_CAPACITY  The INIT_CAPACITY
+     */
+    private void resize(final int INIT_CAPACITY) {
+        Key[]   tempk = (Key[])   new Comparable[INIT_CAPACITY];
+        Value[] tempv = (Value[]) new Object[INIT_CAPACITY];
         for (int i = 0; i < n; i++) {
             tempk[i] = keys[i];
             tempv[i] = values[i];
@@ -50,12 +62,12 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         keys = tempk;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
-     * @return     { description_of_the_return_value }
+     * @return     { description_of_the_return_value }.
      */
     public int size() {
-    	return n;
+        return n;
     }
     /**
      * Determines if empty.
@@ -66,24 +78,26 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return size() == 0;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }
+     * @return     { description_of_the_return_value }.
      */
      public boolean contains(Key key) {
-        if (key == null) throw new IllegalArgumentException("argument to contains() is null");
+        if (key == null)
+        { throw new IllegalArgumentException("argument to contains() is null");
+            }
         return get(key) != null;
-	}
-	/**
-	 * { function_description }
-	 *
-	 * @param      key   The key
-	 *
-	 * @return     { description_of_the_return_value }
-	 */
-	public Value get(Key key) {
+    }
+    /**
+     * { function_description }.
+     *
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }.
+     */
+    public Value get(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to get() is null"); 
         if (isEmpty()) return null;
         int i = rank(key); 
@@ -283,13 +297,13 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
      * @return     String representation of the object.
      */
     public String toString() {
-    	String s = "";
-    	int i = 0;
-    	for (i = 0; i < size() - 1; i++) {
-    		s += keys[i] + " " + values[i] + "\n";
-    	}
-    	s += keys[i] + " " + values[i];
-    	return s;
+        String s = "";
+        int i = 0;
+        for (i = 0; i < size() - 1; i++) {
+            s += keys[i] + " " + values[i] + "\n";
+        }
+        s += keys[i] + " " + values[i];
+        return s;
     }
 }
 
@@ -297,47 +311,47 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
  * Class for solution.
  */
 public class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
 
-	} public static void main(final String[] args) {
-		Scanner sc = new Scanner(System.in);
-		BinarySearchSymbolTable<String, Integer> bs = new BinarySearchSymbolTable<String, Integer>();
-		String[] tokens = sc.nextLine().split(" ");
-		for (int i = 0; i < tokens.length; i++) {
-			bs.put(tokens[i], i);
-		}
-		while(sc.hasNext()) {
-			String[] check = sc.nextLine().split(" ");
-			switch(check[0]) {
-				case "max":
-					System.out.println(bs.max());
-					break;
-				case "floor":
-					System.out.println(bs.floor(check[1]));
-					break;
-				case "rank":
-					System.out.println(bs.rank(check[1]));
-					break;
-				case "deleteMin":
-					bs.deleteMin();
-					break;
-				case "contains":
-					System.out.println(bs.contains(tokens[1]));
-					break;
-				case "keys":
-					System.out.println(bs);
-					break;
-				case "get":
-					System.out.println(bs.get(check[1]));
-					break;
-				default:
-					break;
-			}
-		}
-	}
+    } public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        BinarySearchSymbolTable<String, Integer> bs = new BinarySearchSymbolTable<String, Integer>();
+        String[] tokens = sc.nextLine().split(" ");
+        for (int i = 0; i < tokens.length; i++) {
+            bs.put(tokens[i], i);
+        }
+        while(sc.hasNext()) {
+            String[] check = sc.nextLine().split(" ");
+            switch(check[0]) {
+                case "max":
+                    System.out.println(bs.max());
+                    break;
+                case "floor":
+                    System.out.println(bs.floor(check[1]));
+                    break;
+                case "rank":
+                    System.out.println(bs.rank(check[1]));
+                    break;
+                case "deleteMin":
+                    bs.deleteMin();
+                    break;
+                case "contains":
+                    System.out.println(bs.contains(tokens[1]));
+                    break;
+                case "keys":
+                    System.out.println(bs);
+                    break;
+                case "get":
+                    System.out.println(bs.get(check[1]));
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
 }
 
 
