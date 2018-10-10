@@ -199,10 +199,6 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
     	s += keys[i] + " " + values[i];
     	return s;
     }
-
-
-
-
 }
 
 public class Solution {
@@ -222,10 +218,10 @@ public class Solution {
 					System.out.println(bs.max());
 					break;
 				case "floor":
-					System.out.println(bs.floor(tokens[1]));
+					System.out.println(bs.floor(check[1]));
 					break;
 				case "rank":
-					System.out.println(bs.rank(tokens[1]));
+					System.out.println(bs.rank(check[1]));
 					break;
 				case "deleteMin":
 					bs.deleteMin();
