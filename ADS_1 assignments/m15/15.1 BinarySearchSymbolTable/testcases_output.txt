@@ -19,7 +19,15 @@ X
 E
 2
 true
-BinarySearchSymbolTable@34ce8af7
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
 12
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -41,7 +49,12 @@ false
 null
 Your Output: 
 Y
-BinarySearchSymbolTable@34ce8af7
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
 null
 null
 null
@@ -75,7 +88,15 @@ true
 T
 Your Output: 
 X
-BinarySearchSymbolTable@34ce8af7
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
 3
 3
 3
@@ -108,7 +129,19 @@ true
 13
 P
 Your Output: 
-BinarySearchSymbolTable@34ce8af7
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
 Y
 4
 true
@@ -136,5 +169,12 @@ Y
 Y
 8
 true
-BinarySearchSymbolTable@34ce8af7
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
 ----------------------------------------
