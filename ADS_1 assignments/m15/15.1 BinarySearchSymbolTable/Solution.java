@@ -333,9 +333,9 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return true;
     }
     /**
-     * { function_description }.
+     * { check that rank }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { boolean is returned }.
      */
     private boolean rankCheck() {
         for (int i = 0; i < size(); i++) {
@@ -377,7 +377,7 @@ public final class Solution {
 
     }
     /**
-     * { function_description }.
+     * { Client program }.
      *
      * @param      args  The arguments
      */
