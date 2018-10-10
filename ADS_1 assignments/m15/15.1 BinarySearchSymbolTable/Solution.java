@@ -1,9 +1,9 @@
 /**
- * { item_description }.
+ * { importing scanner class }.
  */
 import java.util.Scanner;
 /**
- * { item_description }.
+ * { importing exception class }.
  */
 import java.util.NoSuchElementException;
 /**
@@ -14,19 +14,19 @@ import java.util.NoSuchElementException;
  */
 class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
     /**
-     * { var_description }.
+     * { this is a capacity variable }.
      */
     private static final int INIT_CAPACITY = 2;
     /**
-     * { var_description }.
+     * { this is a variable for keys }.
      */
     private Key[] keys;
     /**
-     * { var_description }.
+     * {this is variable for values }.
      */
     private Value[] values;
     /**
-     * { var_description }.
+     * { this is a integer variable }.
      */
     private int n = 0;
 
@@ -47,7 +47,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         values = (Value[]) new Object[capacity];
     }
     /**
-     * { function_description }.
+     * { function for resize }.
      *
      * @param      capacity  The capacity
      */
@@ -62,9 +62,9 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         keys = tempk;
     }
     /**
-     * { function_description }.
+     * { size function }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { returns the size }.
      */
     public int size() {
         return n;
@@ -78,11 +78,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return size() == 0;
     }
     /**
-     * { function_description }.
+     * { contains functions }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { boolean value }.
      */
      public boolean contains(final Key key) {
         if (key == null) {
@@ -91,11 +91,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return get(key) != null;
     }
     /**
-     * { function_description }.
+     * { gets the value pair with key }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { key value pair is returned }.
      */
     public Value get(final Key key) {
         if (key == null) {
@@ -111,11 +111,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return null;
     }
     /**
-     * { function_description }.
+     * { rank function }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { rank is returned }.
      */
      public int rank(final Key key) {
         if (key == null) {
@@ -137,7 +137,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return lo;
     }
     /**
-     * { function_description }.
+     * { function for put }.
      *
      * @param      key   The key
      * @param      val   The value
@@ -173,7 +173,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         assert check();
     }
     /**
-     * { function_description }.
+     * { delete function }.
      *
      * @param      key   The key
      */
@@ -209,7 +209,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         assert check();
         }
     /**
-    * { function_description }.
+    * { delete min function }.
     */
     public void deleteMin() {
         if (isEmpty()) {
@@ -218,7 +218,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         delete(min());
     }
     /**
-     * { function_description }.
+     * { delete max function }.
      */
     public void deleteMax() {
         if (isEmpty()) {
@@ -227,9 +227,9 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         delete(max());
     }
     /**
-     * { function_description }.
+     * { min function }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { min is returned }.
      */
     public Key min() {
         if (isEmpty()) {
@@ -239,9 +239,9 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return keys[0];
     }
     /**
-     * { function_description }.
+     * { max function  }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { max returned }.
      */
     public Key max() {
         if (isEmpty()) {
@@ -251,11 +251,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return keys[n - 1];
     }
     /**
-     * { function_description }.
+     * { select function }.
      *
-     * @param      k     { parameter_description }.
+     * @param      k     {int k }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { smallest key in this symbol table }.
      */
     public Key select(final int k) {
         if (k < 0 || k >= size()) {
@@ -265,11 +265,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         return keys[k];
     }
     /**
-     * { function_description }.
+     * { floor function }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { largest key in this symbol table less than or equal to }.
      */
     public Key floor(final Key key) {
         if (key == null) {
@@ -286,12 +286,12 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         }
     }
     /**
-     * { function_description }.
+     * { size function }.
      *
      * @param      lo    The lower
      * @param      hi    The higher
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { size is returned }.
      */
     public int size(final Key lo, final Key hi) {
         if (lo == null) {
@@ -312,9 +312,9 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         }
     }
     /**
-     * { function_description }.
+     * { check function }.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     { boolean is returned }.
      */
     private boolean check() {
         return isSorted() && rankCheck();
