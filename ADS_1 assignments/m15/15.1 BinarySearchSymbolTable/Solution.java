@@ -84,6 +84,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         keys[i] = key;
         values[i] = val;
         n++;
+        assert check();
     }
 
     public void delete(Key key) {
@@ -109,6 +110,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
 
         // resize if 1/4 full
         if (n > 0 && n == keys.length/4) resize(keys.length/2);
+        assert check();
         }
 
         public void deleteMin() {
