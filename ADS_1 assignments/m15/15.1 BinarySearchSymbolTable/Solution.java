@@ -1,20 +1,44 @@
+/**
+ * { item_description }
+ */
 import java.util.Scanner;
+/**
+ * { item_description }
+ */
 import java.util.NoSuchElementException;
+/**
+ * Class for binary search symbol table.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
 	private static final int capacity = 2;
 	private Key[] keys;
 	private Value[] values;
 	private int n = 0;
 
+	/**
+	 * Constructs the object.
+	 */
 	BinarySearchSymbolTable() {
 		this(capacity);
 	}
 
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      capacity  The capacity
+	 */
 	BinarySearchSymbolTable(int capacity) {
 		keys = (Key[]) new Comparable[capacity];
 		values = (Value[]) new Object[capacity];
 	}
-
+	/**
+	 * { function_description }
+	 *
+	 * @param      capacity  The capacity
+	 */
 	private void resize(int capacity) {
         Key[]   tempk = (Key[])   new Comparable[capacity];
         Value[] tempv = (Value[]) new Object[capacity];
@@ -25,20 +49,40 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         values = tempv;
         keys = tempk;
     }
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size() {
     	return n;
     }
-
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return size() == 0;
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
      public boolean contains(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to contains() is null");
         return get(key) != null;
 	}
-
+	/**
+	 * { function_description }
+	 *
+	 * @param      key   The key
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Value get(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to get() is null"); 
         if (isEmpty()) return null;
@@ -46,7 +90,13 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         if (i < n && keys[i].compareTo(key) == 0) return values[i];
         return null;
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
      public int rank(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to rank() is null"); 
 
@@ -60,7 +110,12 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         } 
         return lo;
     } 
-
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     * @param      val   The value
+     */
     public void put(Key key, Value val)  {
         if (key == null) throw new IllegalArgumentException("first argument to put() is null"); 
 
@@ -86,7 +141,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         n++;
         assert check();
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     */
     public void delete(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to delete() is null"); 
         if (isEmpty()) return;
@@ -112,34 +171,58 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         if (n > 0 && n == keys.length/4) resize(keys.length/2);
         assert check();
         }
-
-        public void deleteMin() {
+    /**
+    * { function_description }
+    */
+    public void deleteMin() {
         if (isEmpty()) throw new NoSuchElementException("Symbol table underflow error");
         delete(min());
     }
-
+    /**
+     * { function_description }
+     */
     public void deleteMax() {
         if (isEmpty()) throw new NoSuchElementException("Symbol table underflow error");
         delete(max());
     } 
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Key min() {
         if (isEmpty()) throw new NoSuchElementException("called min() with empty symbol table");
         return keys[0]; 
     }
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Key max() {
         if (isEmpty()) throw new NoSuchElementException("called max() with empty symbol table");
         return keys[n-1];
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      k     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Key select(int k) {
         if (k < 0 || k >= size()) {
             throw new IllegalArgumentException("called select() with invalid argument: " + k);
         }
         return keys[k];
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Key floor(Key key) {
         if (key == null) throw new IllegalArgumentException("argument to floor() is null"); 
         int i = rank(key);
@@ -147,7 +230,14 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         if (i == 0) return null;
         else return keys[i-1];
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      lo    The lower
+     * @param      hi    The higher
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size(Key lo, Key hi) {
         if (lo == null) throw new IllegalArgumentException("first argument to size() is null"); 
         if (hi == null) throw new IllegalArgumentException("second argument to size() is null"); 
@@ -156,22 +246,7 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         if (contains(hi)) return rank(hi) - rank(lo) + 1;
         else              return rank(hi) - rank(lo);
     }
-
-    public Iterable<Key> keys() {
-        return keys(min(), max());
-    }
-
-    public Iterable<Key> keys(Key lo, Key hi) {
-        if (lo == null) throw new IllegalArgumentException("first argument to keys() is null"); 
-        if (hi == null) throw new IllegalArgumentException("second argument to keys() is null"); 
-
-        Queue<Key> queue = new Queue<Key>(); 
-        if (lo.compareTo(hi) > 0) return queue;
-        for (int i = rank(lo); i < rank(hi); i++) 
-            queue.enqueue(keys[i]);
-        if (contains(hi)) queue.enqueue(keys[rank(hi)]);
-        return queue; 
-    }
+    
 
     private boolean check() {
         return isSorted() && rankCheck();
