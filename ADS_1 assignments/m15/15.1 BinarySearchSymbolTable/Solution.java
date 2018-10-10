@@ -247,17 +247,29 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
         else              return rank(hi) - rank(lo);
     }
     
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private boolean check() {
         return isSorted() && rankCheck();
     }
-
+    /**
+     * Determines if sorted.
+     *
+     * @return     True if sorted, False otherwise.
+     */
     private boolean isSorted() {
         for (int i = 1; i < size(); i++)
             if (keys[i].compareTo(keys[i-1]) < 0) return false;
         return true;
     }
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private boolean rankCheck() {
         for (int i = 0; i < size(); i++)
             if (i != rank(select(i))) return false;
@@ -265,6 +277,11 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
             if (keys[i].compareTo(select(rank(keys[i]))) != 0) return false;
         return true;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
     	String s = "";
     	int i = 0;
@@ -276,10 +293,16 @@ class BinarySearchSymbolTable<Key extends Comparable<Key>, Value> {
     }
 }
 
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 
-	} public static void main(String[] args) {
+	} public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		BinarySearchSymbolTable<String, Integer> bs = new BinarySearchSymbolTable<String, Integer>();
 		String[] tokens = sc.nextLine().split(" ");
@@ -316,3 +339,6 @@ public class Solution {
 		}
 	}
 }
+
+
+
