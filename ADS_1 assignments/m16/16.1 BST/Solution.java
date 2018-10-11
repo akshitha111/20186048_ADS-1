@@ -203,7 +203,7 @@ public final class Solution {
                 if (bstobj.get(deobj) == -1) {
                     System.out.println("null");
                 } else {
-                    
+                    System.out.println(bstobj.get(deobj));
                 }
                 break;
             default:
