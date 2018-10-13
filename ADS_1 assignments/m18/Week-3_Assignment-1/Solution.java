@@ -41,7 +41,9 @@ public final class Solution {
 		}
 		while(!minpq.isEmpty()) {
 			 Stock s = minpq.delMin();
+			 for(int i = 0; i < 5; i++) {
 			 System.out.println(s.getPercent());
+			}
 		}
 		//System.out.println(getPercent());
 		int noOfQueries = Integer.parseInt(sc.nextLine());
