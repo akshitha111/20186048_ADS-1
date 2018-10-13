@@ -4,11 +4,11 @@ import java.util.Scanner;
  */
 class Stock implements Comparable<Stock> {
 	/**
-	 * { var_description }
+	 * { this is a name variable }
 	 */
 	private String name;
 	/**
-	 * { var_description }
+	 * { this ia a percent variable}
 	 */
 	private float percent;
 	/**
@@ -29,22 +29,21 @@ class Stock implements Comparable<Stock> {
 	public String getName() {
 		return this.name;
 	}
+	/**
+	 * Gets the percent.
+	 *
+	 * @return     The percent.
+	 */
 	public float getPercent() {
 		return this.percent;
 	}
-	public void setName(Stock that) {
-		if(this.percent == that.percent) {
-			System.out.println(this.name);
-		}else {
-			System.out.println(that.name);
-		}
-	}
+	
 	/**
-	 * { function_description }
+	 * { this is a function for compareTo }
 	 *
 	 * @param      that  The that
 	 *
-	 * @return     { description_of_the_return_value }
+	 * @return     { int is returned }
 	 */
 	public int compareTo(final Stock that) {
         if (this.percent > that.percent) {
@@ -58,12 +57,22 @@ class Stock implements Comparable<Stock> {
     
 }
     
-
+/**
+ * { this is a solution class }
+ */
 public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
-
+		//unused constructor
 	}
-	public static void main(String[] args) {
+	/**
+	 * { Client program }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		MinPQ<Stock> minpq = new MinPQ<Stock>();
 		MaxPQ<Stock> maxpq = new MaxPQ<Stock>();
 		Scanner sc = new Scanner(System.in);
