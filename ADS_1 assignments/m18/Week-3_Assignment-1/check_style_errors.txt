@@ -18,6 +18,7 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:32:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:32:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:38:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:38:36: '6' is a magic number. [MagicNumber]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:39:17: '{' at column 3 should be on the previous line. [LeftCurly]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:40:28: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:40:29: '(' is followed by whitespace. [ParenPad]
@@ -32,4 +33,4 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:52:41: '5' is a magic number. [MagicNumber]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:57:18: '}' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 33 errors.

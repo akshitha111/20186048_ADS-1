@@ -35,7 +35,7 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int noOfStocks = Integer.parseInt(sc.nextLine());
 		//while(sc.hasNext())
-		for(int i = 0; i < noOfStocks; i++)
+		for(int i = 0; i < 6 * noOfStocks; i++)
 		{
 			for( i = 0; i < 20; i++) {
 				String[] tokens = sc.nextLine().split(",");
