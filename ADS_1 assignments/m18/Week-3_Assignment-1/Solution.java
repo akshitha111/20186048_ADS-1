@@ -45,6 +45,7 @@ public final class Solution {
 			 System.out.println(s.getName());
 			 System.out.print(s.getPercent());
 			}
+		}
 
 		
 		while(!minpq.isEmpty()) {
@@ -54,7 +55,7 @@ public final class Solution {
 			 System.out.print(s.getPercent());
 			}
 
-		}
+		
 	}
 		//System.out.println(getPercent());
 		int noOfQueries = Integer.parseInt(sc.nextLine());
