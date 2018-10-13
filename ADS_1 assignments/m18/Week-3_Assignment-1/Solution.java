@@ -1,12 +1,12 @@
 import java.util.Scanner;
 class Stock implements Comparable<Stock> {
-	private String name;
+	private int name;
 	private float percent;
-	Stock(String n, float p) {
+	Stock(int n, float p) {
 		this.name = n;
 		this.percent = p;
 	}
-	public String getName() {
+	public int getName() {
 		return this.name;
 	}
 	public float getPercent() {
@@ -19,9 +19,12 @@ class Stock implements Comparable<Stock> {
         if (this.percent < that.percent) {
             return +1;
         }
-        return 0;
-    }
+       	return this.name;	
+        }
+    
 }
+    
+
 public final class Solution {
 	private Solution() {
 
@@ -32,33 +35,12 @@ public final class Solution {
 		MaxPQ<Stock> maxpq = new MaxPQ<Stock>();
 		Scanner sc = new Scanner(System.in);
 		int noOfStocks = Integer.parseInt(sc.nextLine());
-		//System.out.println(noOfStocks);
-		/*for(int i = 0; i < 20; i++) {
-			String[] tokens = sc.nextLine().split(",");
-			//System.out.println(tokens);
-			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
-			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
-		}
-			for(int i = 0; i < 5; i++) {
-			Stock s = minpq.delMin();
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());
-
-			}System.out.println();
-			for(int  i = 0; i < 5; i++) {
-			Stock s = maxpq.delMax();
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());
-			//}
-		}*/
-
 		while(sc.hasNext())
 		{
 			for(int i = 0; i < 20; i++) {
 				String[] tokens = sc.nextLine().split(",");
-			//System.out.println(tokens);
-			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
-			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
+			minpq.insert(new Stock(Integer.parseInt(tokens[0]), Float.parseFloat(tokens[1])));
+			maxpq.insert(new Stock(Integer.parseInt(tokens[0]), Float.parseFloat(tokens[1])));
 			}
 
 			for(int i = 0; i < 5; i++) {
@@ -74,6 +56,7 @@ public final class Solution {
 			 System.out.println(s.getPercent());
 			//}
 		}System.out.println();
+
 		}
 			}
 		}
