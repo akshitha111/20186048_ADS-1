@@ -73,13 +73,9 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
 Merck Ltd 4.83
-
 ICRA 2.84
-
 Schaeffler India 2.57
-
 TTK Prestige 2.15
-
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -163,13 +159,9 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
 Larsen & Toubro 4.11
-
 Larsen & Toubro 4.08
-
 Jubilant Food 4.08
-
 Vinati Organics 4.03
-
 NIIT Tech 3.21
 
 Nalwa Sons Invst -0.06
@@ -258,13 +250,9 @@ WABCO India 0.33
 3
 Your Output: 
 Merck Ltd 4.83
-
 ICRA 2.84
-
 Schaeffler India 2.57
-
 TTK Prestige 2.15
-
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -353,13 +341,9 @@ Chola Inv Fin 1.47
 0
 Your Output: 
 Larsen & Toubro 4.11
-
 Larsen & Toubro 4.08
-
 Jubilant Food 4.08
-
 Vinati Organics 4.03
-
 NIIT Tech 3.21
 
 Nalwa Sons Invst -0.06
@@ -463,13 +447,9 @@ TTK Prestige
 Tasty Bite Eat
 Your Output: 
 Merck Ltd 4.83
-
 Schaeffler India 2.57
-
 ICRA 2.15
-
 TTK Prestige 2.15
-
 Bharat Rasayan 2.0
 
 Bosch 0.3
