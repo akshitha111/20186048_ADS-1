@@ -39,16 +39,6 @@ public final class Solution {
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 		}
-		
-		//while(!maxpq.isEmpty() ) {
-			/*Stock s = maxpq.delMax();
-			s = minpq.delMin();
-			System.out.println(s.compareTo(tokens[1]));
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());*/
-		//}
-	
-		//while(!minpq.isEmpty()) {
 			for(int i = 0; i < 5; i++) {
 			Stock s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
@@ -70,54 +60,20 @@ public final class Solution {
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			}
+
 			for(int i = 0; i < 5; i++) {
 			Stock s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 
 			}System.out.println();
+
 			for(int  i = 0; i < 5; i++) {
 			Stock s = maxpq.delMax();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 			//}
 		}System.out.println();
-		System.out.println();
+		//System.out.println();
 		}
-			/*for( i = 5; i < 10; i++) {
-			Stock s = minpq.delMin();
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());
-
-			}*/
-		
-
-
-
-		/*while(!maxpq.isEmpty() ) {
-			//for(int i = 0; i < 5; i++) {
-			 Stock s = maxpq.delMax();
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());
-			 //System.out.println();
-			//}
-			}*/
-		
-
-		
-		
-		//}
-
-		
-	//}
-		//System.out.println(getPercent());
-		//int noOfQueries = Integer.parseInt(sc.nextLine());
-		//System.out.println(noOfQueries);
-		//if(noOfQueries > 0) {
-			/*for(int i = 0; i < noOfQueries; i++) {
-				String[] check = sc.nextLine().split(",");*/
-				//System.out.println(check[0]);
-			//}
-		//}
-	}
-}
+			}}
