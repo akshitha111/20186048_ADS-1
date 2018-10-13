@@ -1,12 +1,12 @@
 import java.util.Scanner;
 class Stock implements Comparable<Stock> {
-	private int name;
+	private String name;
 	private float percent;
-	Stock(int n, float p) {
+	Stock(String n, float p) {
 		this.name = n;
 		this.percent = p;
 	}
-	public int getName() {
+	public String getName() {
 		return this.name;
 	}
 	public float getPercent() {
@@ -19,7 +19,7 @@ class Stock implements Comparable<Stock> {
         if (this.percent < that.percent) {
             return +1;
         }
-       	return this.name;	
+       	return 0;	
         }
     
 }
@@ -30,7 +30,6 @@ public final class Solution {
 
 	}
 	public static void main(String[] args) {
-		/*Stock s = new Stock(int );*/
 		MinPQ<Stock> minpq = new MinPQ<Stock>();
 		MaxPQ<Stock> maxpq = new MaxPQ<Stock>();
 		Scanner sc = new Scanner(System.in);
@@ -39,15 +38,14 @@ public final class Solution {
 		{
 			for(int i = 0; i < 20; i++) {
 				String[] tokens = sc.nextLine().split(",");
-			minpq.insert(new Stock(Integer.parseInt(tokens[0]), Float.parseFloat(tokens[1])));
-			maxpq.insert(new Stock(Integer.parseInt(tokens[0]), Float.parseFloat(tokens[1])));
+			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
+			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			}
 
 			for(int i = 0; i < 5; i++) {
 			Stock s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
-
 			}System.out.println();
 
 			for(int  i = 0; i < 5; i++) {
