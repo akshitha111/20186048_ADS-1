@@ -20,7 +20,6 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:40: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:51:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:52:28: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:52:44: '5' is a magic number. [MagicNumber]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:57:26: '}' is not followed by whitespace. [WhitespaceAround]
@@ -32,4 +31,4 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:85: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:88: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 31 errors.
