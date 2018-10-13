@@ -40,11 +40,12 @@ public final class Solution {
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 		}
 		while(!maxpq.isEmpty()) {
-			for(int i = 0; i < 5; i++) {
+			//for(int i = 0; i < 5; i++) {
 			 Stock s = maxpq.delMax();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
-			}
+			 System.out.println();
+			//}
 		}
 
 		
