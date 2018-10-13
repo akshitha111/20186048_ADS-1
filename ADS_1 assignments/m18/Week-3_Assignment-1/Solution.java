@@ -34,21 +34,22 @@ public final class Solution {
 		MaxPQ<Stock> maxpq = new MaxPQ<Stock>();
 		Scanner sc = new Scanner(System.in);
 		int noOfStocks = Integer.parseInt(sc.nextLine());
-		while(sc.hasNext())
+		//while(sc.hasNext())
+		for(int i = 0; i < noOfStocks; i++)
 		{
-			for(int i = 0; i < 20; i++) {
+			for( i = 0; i < 20; i++) {
 				String[] tokens = sc.nextLine().split(",");
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			}
 
-			for(int i = 0; i < 5; i++) {
+			for(i = 0; i < 5; i++) {
 			Stock s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 			}System.out.println();
 
-			for(int  i = 0; i < 5; i++) {
+			for( i = 0; i < 5; i++) {
 			Stock s = maxpq.delMax();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());

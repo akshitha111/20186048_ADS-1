@@ -145,7 +145,7 @@ GSK Cons Health -0.84
 Lakshmi Machine -0.7
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:41)
+	at Solution.main(Solution.java:42)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -258,7 +258,7 @@ NIIT Tech 0.21
 NIIT Tech 0.21
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:41)
+	at Solution.main(Solution.java:42)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -412,7 +412,7 @@ GSK Cons Health -0.84
 Lakshmi Machine -0.7
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:41)
+	at Solution.main(Solution.java:42)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -530,7 +530,7 @@ NIIT Tech 0.21
 NIIT Tech 0.21
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:41)
+	at Solution.main(Solution.java:42)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -699,5 +699,5 @@ Tasty Bite Eat -1.23
 Sanofi India -1.21
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:41)
+	at Solution.main(Solution.java:42)
 ----------------------------------------
