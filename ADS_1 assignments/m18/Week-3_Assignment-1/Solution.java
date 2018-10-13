@@ -40,19 +40,21 @@ public final class Solution {
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 		
 		//while(!maxpq.isEmpty() ) {
-			Stock s = maxpq.delMax();
+			/*Stock s = maxpq.delMax();
 			s = minpq.delMin();
-			 System.out.print(s.getName() + " ");
-			 System.out.println(s.getPercent());
-		//}
-	}
-		//while(!maxpq.isEmpty() && !minpq.isEmpty()) {
-			//for(int i = 0; i < 5; i++) {
-			 /*Stock s = maxpq.delMax();
+			System.out.println(s.compareTo(tokens[1]));
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());*/
+		//}
+	}
+		while(!maxpq.isEmpty() && !minpq.isEmpty()) {
+			//for(int i = 0; i < 5; i++) {
+			 Stock s = maxpq.delMax();
+			 System.out.print(s.getName() + " ");
+			 System.out.println(s.getPercent());
 			 //System.out.println();
 			//}
+			}
 		
 
 		
