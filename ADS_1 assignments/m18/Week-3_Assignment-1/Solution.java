@@ -39,6 +39,14 @@ public final class Solution {
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 		}
+		while(!maxpq.isEmpty()) {
+			for(int i = 0; i < 5; i++) {
+			 Stock s = maxpq.delMax();
+			 System.out.println(s.getName());
+			 System.out.print(s.getPercent());
+			}
+
+		
 		while(!minpq.isEmpty()) {
 			for(int i = 0; i < 5; i++) {
 			 Stock s = minpq.delMin();
@@ -47,6 +55,7 @@ public final class Solution {
 			}
 
 		}
+	}
 		//System.out.println(getPercent());
 		int noOfQueries = Integer.parseInt(sc.nextLine());
 		//System.out.println(noOfQueries);
