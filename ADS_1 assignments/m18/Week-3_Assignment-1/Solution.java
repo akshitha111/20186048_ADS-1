@@ -1,17 +1,49 @@
 import java.util.Scanner;
+/**
+ * Class for stock.
+ */
 class Stock implements Comparable<Stock> {
+	/**
+	 * { var_description }
+	 */
 	private String name;
+	/**
+	 * { var_description }
+	 */
 	private float percent;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      n     { parameter_description }
+	 * @param      p     { parameter_description }
+	 */
 	Stock(String n, float p) {
 		this.name = n;
 		this.percent = p;
 	}
+	/**
+	 * Gets the name.
+	 *
+	 * @return     The name.
+	 */
 	public String getName() {
 		return this.name;
 	}
 	public float getPercent() {
 		return this.percent;
 	}
+	public void setName(Stock that) {
+		if(this.percent == that.percent) {
+			System.out.println(this.name);
+		}
+	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      that  The that
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int compareTo(final Stock that) {
         if (this.percent > that.percent) {
             return -1;
