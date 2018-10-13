@@ -72,51 +72,11 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Merck Ltd 4.83
-Bosch 
-0.3Abbott India 
-0.46MRF 
-0.48Oracle Fin 
-0.52Bajaj Finserv 
-0.64Lakshmi Machine 
-0.7GSK Cons Health 
-0.84Honeywell Auto 
-1.08Sanofi India 
-1.21Tasty Bite Eat 
-1.23WABCO India 
-1.333M India 
-1.56Nestle India 
-1.57Eicher Motors 
-1.6HEG Ltd 
-1.61Bharat Rasayan 
-2.0TTK Prestige 
-2.15Schaeffler India 
-2.57ICRA 
-2.84Merck Ltd 
-4.83ICRA 2.84
-Schaeffler India 2.57
-TTK Prestige 2.15
-Bharat Rasayan 2.0
-HEG Ltd 1.61
-Eicher Motors 1.6
-Nestle India 1.57
-3M India 1.56
-WABCO India 1.33
-Tasty Bite Eat 1.23
-Sanofi India 1.21
-Honeywell Auto 1.08
-GSK Cons Health 0.84
-Lakshmi Machine 0.7
-Bajaj Finserv 0.64
-Oracle Fin 0.52
-MRF 0.48
-Abbott India 0.46
-Bosch 0.3
 Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:63)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -192,31 +152,11 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Larsen & Toubro 4.11
-Nalwa Sons Invst 
--0.06Jubilant Food 
-0.08Endurance Technologies Ltd. 
-0.1NIIT Tech 
-0.21Ceat 
-0.23Chola Inv Fin 
-1.47Fine Organic Industries Ltd. 
-2.29APL Apollo Tube 
-3.18Vinati Organics 
-4.03Larsen & Toubro 
-4.11Vinati Organics 4.03
-APL Apollo Tube 3.18
-Fine Organic Industries Ltd. 2.29
-Chola Inv Fin 1.47
-Ceat 0.23
-NIIT Tech 0.21
-Endurance Technologies Ltd. 0.1
-Jubilant Food 0.08
-Nalwa Sons Invst -0.06
 Exception in thread "main" java.lang.NumberFormatException: For input string: "Larsen & Toubro,4.08"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:63)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -297,51 +237,11 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Merck Ltd 4.83
-Bosch 
-0.3Abbott India 
-0.46MRF 
-0.48Oracle Fin 
-0.52Bajaj Finserv 
-0.64Lakshmi Machine 
-0.7GSK Cons Health 
-0.84Honeywell Auto 
-1.08Sanofi India 
-1.21Tasty Bite Eat 
-1.23WABCO India 
-1.333M India 
-1.56Nestle India 
-1.57Eicher Motors 
-1.6HEG Ltd 
-1.61Bharat Rasayan 
-2.0TTK Prestige 
-2.15Schaeffler India 
-2.57ICRA 
-2.84Merck Ltd 
-4.83ICRA 2.84
-Schaeffler India 2.57
-TTK Prestige 2.15
-Bharat Rasayan 2.0
-HEG Ltd 1.61
-Eicher Motors 1.6
-Nestle India 1.57
-3M India 1.56
-WABCO India 1.33
-Tasty Bite Eat 1.23
-Sanofi India 1.21
-Honeywell Auto 1.08
-GSK Cons Health 0.84
-Lakshmi Machine 0.7
-Bajaj Finserv 0.64
-Oracle Fin 0.52
-MRF 0.48
-Abbott India 0.46
-Bosch 0.3
 Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:63)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -422,31 +322,11 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Larsen & Toubro 4.11
-Nalwa Sons Invst 
--0.06Jubilant Food 
-0.08Endurance Technologies Ltd. 
-0.1NIIT Tech 
-0.21Ceat 
-0.23Chola Inv Fin 
-1.47Fine Organic Industries Ltd. 
-2.29APL Apollo Tube 
-3.18Vinati Organics 
-4.03Larsen & Toubro 
-4.11Vinati Organics 4.03
-APL Apollo Tube 3.18
-Fine Organic Industries Ltd. 2.29
-Chola Inv Fin 1.47
-Ceat 0.23
-NIIT Tech 0.21
-Endurance Technologies Ltd. 0.1
-Jubilant Food 0.08
-Nalwa Sons Invst -0.06
 Exception in thread "main" java.lang.NumberFormatException: For input string: "Larsen & Toubro,4.08"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:63)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -542,49 +422,9 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Merck Ltd 4.83
-Bosch 
-0.3MRF 
-0.48Abbott India 
-0.48Oracle Fin 
-0.52Bajaj Finserv 
-0.64Lakshmi Machine 
-0.7GSK Cons Health 
-0.84Honeywell Auto 
-1.08Sanofi India 
-1.21Tasty Bite Eat 
-1.23WABCO India 
-1.333M India 
-1.56Nestle India 
-1.57Eicher Motors 
-1.6HEG Ltd 
-1.61Bharat Rasayan 
-2.0ICRA 
-2.15TTK Prestige 
-2.15Schaeffler India 
-2.57Merck Ltd 
-4.83Schaeffler India 2.57
-ICRA 2.15
-TTK Prestige 2.15
-Bharat Rasayan 2.0
-HEG Ltd 1.61
-Eicher Motors 1.6
-Nestle India 1.57
-3M India 1.56
-WABCO India 1.33
-Tasty Bite Eat 1.23
-Sanofi India 1.21
-Honeywell Auto 1.08
-GSK Cons Health 0.84
-Lakshmi Machine 0.7
-Bajaj Finserv 0.64
-Oracle Fin 0.52
-Abbott India 0.48
-MRF 0.48
-Bosch 0.3
 Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:63)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
