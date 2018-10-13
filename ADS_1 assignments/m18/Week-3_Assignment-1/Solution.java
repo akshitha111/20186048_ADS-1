@@ -59,7 +59,7 @@ public final class Solution {
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 			}
-			for(int i = 0; i < 5; i++) {
+			for(int i = 5; i < 10; i++) {
 			Stock s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
