@@ -13,10 +13,10 @@ class Stock implements Comparable<Stock> {
 		return this.percent;
 	}
 	public int compareTo(final Stock that) {
-        if (this.percent < that.percent) {
+        if (this.percent > that.percent) {
             return -1;
         }
-        if (this.percent > that.percent) {
+        if (this.percent < that.percent) {
             return +1;
         }
         return 0;
