@@ -50,8 +50,8 @@ public final class Solution {
 		//while(true) {
 			for(int i = 0; i < 5; i++) {
 			Stock s = minpq.delMin();
-			 System.out.println(s.getName() + " ");
-			 System.out.print(s.getPercent());
+			 System.out.print(s.getName() + " ");
+			 System.out.println(s.getPercent());
 			}
 
 		/*while(!maxpq.isEmpty() ) {
