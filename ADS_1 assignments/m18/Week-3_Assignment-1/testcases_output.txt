@@ -72,247 +72,51 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-ICRA
-5.84Merck Ltd
-5.83Bajaj Finserv
-5.64Tasty Bite Eat
-5.23ICRA
-4.84Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
-4.83Lakshmi Machine
-4.7Bajaj Finserv
-4.64Schaeffler India
-4.59Nestle India
-4.57Nestle India
-4.57ICRA
-3.84Merck Ltd
-3.83Lakshmi Machine
-3.7Bajaj Finserv
-3.64MRF
-3.48MRF
-3.48TTK Prestige
-3.15ICRA
-2.84ICRA
-2.84HEG Ltd
-2.61Schaeffler India
-2.57Schaeffler India
-2.57Schaeffler India
-2.573M India
-2.563M India
-2.56Bosch
-2.3Tasty Bite Eat
-2.23Sanofi India
-2.21TTK Prestige
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0GSK Cons Health
-1.84Merck Ltd
-1.83Lakshmi Machine
-1.7HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61Eicher Motors
-1.6Eicher Motors
-1.6Eicher Motors
-1.6Schaeffler India
-1.57Nestle India
-1.57Nestle India
-1.57Nestle India
-1.573M India
-1.563M India
-1.563M India
-1.563M India
-1.56Oracle Fin
-1.52Oracle Fin
-1.52MRF
-1.48MRF
-1.48Abbott India
-1.46Abbott India
-1.46WABCO India
-1.33WABCO India
-1.33Bosch
-1.3Tasty Bite Eat
-1.23Tasty Bite Eat
-1.23Sanofi India
-1.21Sanofi India
-1.21Honeywell Auto
-1.08Honeywell Auto
-1.08Honeywell Auto
-1.08GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
-0.84Lakshmi Machine
-0.7Lakshmi Machine
-0.7Bajaj Finserv
-0.64Bajaj Finserv
-0.64Eicher Motors
-0.6Oracle Fin
-0.52Oracle Fin
-0.52Oracle Fin
-0.52MRF
-0.48MRF
-0.48Abbott India
-0.46Abbott India
-0.46Abbott India
-0.46Bosch
-0.34WABCO India
-0.33WABCO India
-0.33Bosch
-0.3Bosch
-0.3Tasty Bite Eat
-0.23Sanofi India
-0.21TTK Prestige
-0.15Bosch
--0.3Abbott India
--0.46Oracle Fin
--0.52Bajaj Finserv
--0.64Lakshmi Machine
--0.7GSK Cons Health
--0.84GSK Cons Health
--0.84Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08Sanofi India
--1.21Sanofi India
--1.21Tasty Bite Eat
--1.23WABCO India
--1.33WABCO India
--1.33Nestle India
--1.57Eicher Motors
--1.6Eicher Motors
--1.6HEG Ltd
--1.61Bharat Rasayan
--2.0TTK Prestige
--2.15Schaeffler India
--2.57ICRA
--2.84ICRA
--2.84Schaeffler India
--2.57TTK Prestige
--2.15Bharat Rasayan
--2.0HEG Ltd
--1.61Eicher Motors
--1.6Eicher Motors
--1.6Nestle India
--1.57WABCO India
--1.33WABCO India
--1.33Tasty Bite Eat
--1.23Sanofi India
--1.21Sanofi India
--1.21Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08GSK Cons Health
--0.84GSK Cons Health
--0.84Lakshmi Machine
--0.7Bajaj Finserv
--0.64Oracle Fin
--0.52Abbott India
--0.46Bosch
--0.3TTK Prestige
-0.15Sanofi India
-0.21Tasty Bite Eat
-0.23Bosch
-0.3Bosch
-0.3WABCO India
-0.33WABCO India
-0.33Bosch
-0.34Abbott India
-0.46Abbott India
-0.46Abbott India
-0.46MRF
-0.48MRF
-0.48Oracle Fin
-0.52Oracle Fin
-0.52Oracle Fin
-0.52Eicher Motors
-0.6Bajaj Finserv
-0.64Bajaj Finserv
-0.64Lakshmi Machine
-0.7Lakshmi Machine
-0.7GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
-0.84Honeywell Auto
-1.08Honeywell Auto
-1.08Honeywell Auto
-1.08Sanofi India
-1.21Sanofi India
-1.21Tasty Bite Eat
-1.23Tasty Bite Eat
-1.23Bosch
-1.3WABCO India
-1.33WABCO India
-1.33Abbott India
-1.46Abbott India
-1.46MRF
-1.48MRF
-1.48Oracle Fin
-1.52Oracle Fin
-1.523M India
-1.563M India
-1.563M India
-1.563M India
-1.56Nestle India
-1.57Schaeffler India
-1.57Nestle India
-1.57Nestle India
-1.57Eicher Motors
-1.6Eicher Motors
-1.6Eicher Motors
-1.6HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61Lakshmi Machine
-1.7Merck Ltd
-1.83GSK Cons Health
-1.84Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0TTK Prestige
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Sanofi India
-2.21Tasty Bite Eat
-2.23Bosch
-2.33M India
-2.563M India
-2.56Schaeffler India
-2.57Schaeffler India
-2.57Schaeffler India
-2.57HEG Ltd
-2.61ICRA
-2.84ICRA
-2.84TTK Prestige
-3.15MRF
-3.48MRF
-3.48Bajaj Finserv
-3.64Lakshmi Machine
-3.7Merck Ltd
-3.83ICRA
-3.84Nestle India
-4.57Nestle India
-4.57Schaeffler India
-4.59Bajaj Finserv
-4.64Lakshmi Machine
-4.7Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
+Merck Ltd
 4.83ICRA
-4.84Tasty Bite Eat
-5.23Bajaj Finserv
-5.64Merck Ltd
-5.83ICRA
-5.84
+2.84Schaeffler India
+2.57TTK Prestige
+2.15Bharat Rasayan
+2.0HEG Ltd
+1.61Eicher Motors
+1.6Nestle India
+1.573M India
+1.56WABCO India
+1.33Tasty Bite Eat
+1.23Sanofi India
+1.21Honeywell Auto
+1.08GSK Cons Health
+0.84Lakshmi Machine
+0.7Bajaj Finserv
+0.64Oracle Fin
+0.52MRF
+0.48Abbott India
+0.46Bosch
+0.3Bosch
+0.3Abbott India
+0.46MRF
+0.48Oracle Fin
+0.52Bajaj Finserv
+0.64Lakshmi Machine
+0.7GSK Cons Health
+0.84Honeywell Auto
+1.08Sanofi India
+1.21Tasty Bite Eat
+1.23WABCO India
+1.333M India
+1.56Nestle India
+1.57Eicher Motors
+1.6HEG Ltd
+1.61Bharat Rasayan
+2.0TTK Prestige
+2.15Schaeffler India
+2.57ICRA
+2.84Merck Ltd
+4.83Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -389,126 +193,30 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
 Larsen & Toubro
-5.11Jubilant Food
-5.08Chola Inv Fin
-4.47Larsen & Toubro
-4.11Endurance Technologies Ltd.
-4.1Larsen & Toubro
-4.08Jubilant Food
-4.08Jubilant Food
-4.08Nalwa Sons Invst
-4.06Vinati Organics
-4.03Vinati Organics
-4.03Chola Inv Fin
-3.47Fine Organic Industries Ltd.
-3.29Fine Organic Industries Ltd.
-3.29NIIT Tech
-3.21APL Apollo Tube
-3.18Larsen & Toubro
-3.11Vinati Organics
-3.03Chola Inv Fin
-2.47Fine Organic Industries Ltd.
-2.29APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18Jubilant Food
-2.08Chola Inv Fin
-1.47Chola Inv Fin
-1.47Fine Organic Industries Ltd.
-1.29Ceat
-1.23Ceat
-1.23NIIT Tech
-1.21Larsen & Toubro
-1.11Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Vinati Organics
-1.03Vinati Organics
-1.03Vinati Organics
-1.03Chola Inv Fin
-0.47NIIT Tech
-0.34Fine Organic Industries Ltd.
-0.29Fine Organic Industries Ltd.
-0.29Ceat
-0.23Ceat
+4.11Vinati Organics
+4.03APL Apollo Tube
+3.18Fine Organic Industries Ltd.
+2.29Chola Inv Fin
+1.47Ceat
 0.23NIIT Tech
-0.21NIIT Tech
-0.21NIIT Tech
-0.21APL Apollo Tube
-0.18Endurance Technologies Ltd.
+0.21Endurance Technologies Ltd.
 0.1Jubilant Food
-0.08Jubilant Food
 0.08Nalwa Sons Invst
 -0.06Nalwa Sons Invst
--0.06Ceat
--0.06Nalwa Sons Invst
--0.06Endurance Technologies Ltd.
--0.1Nalwa Sons Invst
--0.1Ceat
--1.23Nalwa Sons Invst
--2.06Larsen & Toubro
--4.11Larsen & Toubro
--4.11Nalwa Sons Invst
--2.06Ceat
--1.23Nalwa Sons Invst
--0.1Endurance Technologies Ltd.
--0.1Nalwa Sons Invst
--0.06Ceat
--0.06Nalwa Sons Invst
--0.06Nalwa Sons Invst
 -0.06Jubilant Food
-0.08Jubilant Food
 0.08Endurance Technologies Ltd.
-0.1APL Apollo Tube
-0.18NIIT Tech
-0.21NIIT Tech
-0.21NIIT Tech
+0.1NIIT Tech
 0.21Ceat
-0.23Ceat
-0.23Fine Organic Industries Ltd.
-0.29Fine Organic Industries Ltd.
-0.29NIIT Tech
-0.34Chola Inv Fin
-0.47Vinati Organics
-1.03Vinati Organics
-1.03Vinati Organics
-1.03Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Larsen & Toubro
-1.11NIIT Tech
-1.21Ceat
-1.23Ceat
-1.23Fine Organic Industries Ltd.
-1.29Chola Inv Fin
-1.47Chola Inv Fin
-1.47Jubilant Food
-2.08APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18Fine Organic Industries Ltd.
-2.29Chola Inv Fin
-2.47Vinati Organics
-3.03Larsen & Toubro
-3.11APL Apollo Tube
-3.18NIIT Tech
-3.21Fine Organic Industries Ltd.
-3.29Fine Organic Industries Ltd.
-3.29Chola Inv Fin
-3.47Vinati Organics
-4.03Vinati Organics
-4.03Nalwa Sons Invst
-4.06Jubilant Food
-4.08Larsen & Toubro
-4.08Jubilant Food
-4.08Endurance Technologies Ltd.
-4.1Larsen & Toubro
-4.11Chola Inv Fin
-4.47Jubilant Food
-5.08Larsen & Toubro
-5.11
+0.23Chola Inv Fin
+1.47Fine Organic Industries Ltd.
+2.29APL Apollo Tube
+3.18Vinati Organics
+4.03Larsen & Toubro
+4.11Exception in thread "main" java.lang.NumberFormatException: For input string: "Larsen & Toubro,4.08"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -589,247 +297,51 @@ WABCO India 0.33
 1
 3
 Your Output: 
-ICRA
-5.84Merck Ltd
-5.83Bajaj Finserv
-5.64Tasty Bite Eat
-5.23ICRA
-4.84Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
-4.83Lakshmi Machine
-4.7Bajaj Finserv
-4.64Schaeffler India
-4.59Nestle India
-4.57Nestle India
-4.57ICRA
-3.84Merck Ltd
-3.83Lakshmi Machine
-3.7Bajaj Finserv
-3.64MRF
-3.48MRF
-3.48TTK Prestige
-3.15ICRA
-2.84ICRA
-2.84HEG Ltd
-2.61Schaeffler India
-2.57Schaeffler India
-2.57Schaeffler India
-2.573M India
-2.563M India
-2.56Bosch
-2.3Tasty Bite Eat
-2.23Sanofi India
-2.21TTK Prestige
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0GSK Cons Health
-1.84Merck Ltd
-1.83Lakshmi Machine
-1.7HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61Eicher Motors
-1.6Eicher Motors
-1.6Eicher Motors
-1.6Schaeffler India
-1.57Nestle India
-1.57Nestle India
-1.57Nestle India
-1.573M India
-1.563M India
-1.563M India
-1.563M India
-1.56Oracle Fin
-1.52Oracle Fin
-1.52MRF
-1.48MRF
-1.48Abbott India
-1.46Abbott India
-1.46WABCO India
-1.33WABCO India
-1.33Bosch
-1.3Tasty Bite Eat
-1.23Tasty Bite Eat
-1.23Sanofi India
-1.21Sanofi India
-1.21Honeywell Auto
-1.08Honeywell Auto
-1.08Honeywell Auto
-1.08GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
-0.84Lakshmi Machine
-0.7Lakshmi Machine
-0.7Bajaj Finserv
-0.64Bajaj Finserv
-0.64Eicher Motors
-0.6Oracle Fin
-0.52Oracle Fin
-0.52Oracle Fin
-0.52MRF
-0.48MRF
-0.48Abbott India
-0.46Abbott India
-0.46Abbott India
-0.46Bosch
-0.34WABCO India
-0.33WABCO India
-0.33Bosch
-0.3Bosch
-0.3Tasty Bite Eat
-0.23Sanofi India
-0.21TTK Prestige
-0.15Bosch
--0.3Abbott India
--0.46Oracle Fin
--0.52Bajaj Finserv
--0.64Lakshmi Machine
--0.7GSK Cons Health
--0.84GSK Cons Health
--0.84Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08Sanofi India
--1.21Sanofi India
--1.21Tasty Bite Eat
--1.23WABCO India
--1.33WABCO India
--1.33Nestle India
--1.57Eicher Motors
--1.6Eicher Motors
--1.6HEG Ltd
--1.61Bharat Rasayan
--2.0TTK Prestige
--2.15Schaeffler India
--2.57ICRA
--2.84ICRA
--2.84Schaeffler India
--2.57TTK Prestige
--2.15Bharat Rasayan
--2.0HEG Ltd
--1.61Eicher Motors
--1.6Eicher Motors
--1.6Nestle India
--1.57WABCO India
--1.33WABCO India
--1.33Tasty Bite Eat
--1.23Sanofi India
--1.21Sanofi India
--1.21Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08GSK Cons Health
--0.84GSK Cons Health
--0.84Lakshmi Machine
--0.7Bajaj Finserv
--0.64Oracle Fin
--0.52Abbott India
--0.46Bosch
--0.3TTK Prestige
-0.15Sanofi India
-0.21Tasty Bite Eat
-0.23Bosch
-0.3Bosch
-0.3WABCO India
-0.33WABCO India
-0.33Bosch
-0.34Abbott India
-0.46Abbott India
-0.46Abbott India
-0.46MRF
-0.48MRF
-0.48Oracle Fin
-0.52Oracle Fin
-0.52Oracle Fin
-0.52Eicher Motors
-0.6Bajaj Finserv
-0.64Bajaj Finserv
-0.64Lakshmi Machine
-0.7Lakshmi Machine
-0.7GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
-0.84Honeywell Auto
-1.08Honeywell Auto
-1.08Honeywell Auto
-1.08Sanofi India
-1.21Sanofi India
-1.21Tasty Bite Eat
-1.23Tasty Bite Eat
-1.23Bosch
-1.3WABCO India
-1.33WABCO India
-1.33Abbott India
-1.46Abbott India
-1.46MRF
-1.48MRF
-1.48Oracle Fin
-1.52Oracle Fin
-1.523M India
-1.563M India
-1.563M India
-1.563M India
-1.56Nestle India
-1.57Schaeffler India
-1.57Nestle India
-1.57Nestle India
-1.57Eicher Motors
-1.6Eicher Motors
-1.6Eicher Motors
-1.6HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61Lakshmi Machine
-1.7Merck Ltd
-1.83GSK Cons Health
-1.84Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0TTK Prestige
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Sanofi India
-2.21Tasty Bite Eat
-2.23Bosch
-2.33M India
-2.563M India
-2.56Schaeffler India
-2.57Schaeffler India
-2.57Schaeffler India
-2.57HEG Ltd
-2.61ICRA
-2.84ICRA
-2.84TTK Prestige
-3.15MRF
-3.48MRF
-3.48Bajaj Finserv
-3.64Lakshmi Machine
-3.7Merck Ltd
-3.83ICRA
-3.84Nestle India
-4.57Nestle India
-4.57Schaeffler India
-4.59Bajaj Finserv
-4.64Lakshmi Machine
-4.7Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
+Merck Ltd
 4.83ICRA
-4.84Tasty Bite Eat
-5.23Bajaj Finserv
-5.64Merck Ltd
-5.83ICRA
-5.84
+2.84Schaeffler India
+2.57TTK Prestige
+2.15Bharat Rasayan
+2.0HEG Ltd
+1.61Eicher Motors
+1.6Nestle India
+1.573M India
+1.56WABCO India
+1.33Tasty Bite Eat
+1.23Sanofi India
+1.21Honeywell Auto
+1.08GSK Cons Health
+0.84Lakshmi Machine
+0.7Bajaj Finserv
+0.64Oracle Fin
+0.52MRF
+0.48Abbott India
+0.46Bosch
+0.3Bosch
+0.3Abbott India
+0.46MRF
+0.48Oracle Fin
+0.52Bajaj Finserv
+0.64Lakshmi Machine
+0.7GSK Cons Health
+0.84Honeywell Auto
+1.08Sanofi India
+1.21Tasty Bite Eat
+1.23WABCO India
+1.333M India
+1.56Nestle India
+1.57Eicher Motors
+1.6HEG Ltd
+1.61Bharat Rasayan
+2.0TTK Prestige
+2.15Schaeffler India
+2.57ICRA
+2.84Merck Ltd
+4.83Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -911,126 +423,30 @@ Chola Inv Fin 1.47
 0
 Your Output: 
 Larsen & Toubro
-5.11Jubilant Food
-5.08Chola Inv Fin
-4.47Larsen & Toubro
-4.11Endurance Technologies Ltd.
-4.1Larsen & Toubro
-4.08Jubilant Food
-4.08Jubilant Food
-4.08Nalwa Sons Invst
-4.06Vinati Organics
-4.03Vinati Organics
-4.03Chola Inv Fin
-3.47Fine Organic Industries Ltd.
-3.29Fine Organic Industries Ltd.
-3.29NIIT Tech
-3.21APL Apollo Tube
-3.18Larsen & Toubro
-3.11Vinati Organics
-3.03Chola Inv Fin
-2.47Fine Organic Industries Ltd.
-2.29APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18Jubilant Food
-2.08Chola Inv Fin
-1.47Chola Inv Fin
-1.47Fine Organic Industries Ltd.
-1.29Ceat
-1.23Ceat
-1.23NIIT Tech
-1.21Larsen & Toubro
-1.11Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Vinati Organics
-1.03Vinati Organics
-1.03Vinati Organics
-1.03Chola Inv Fin
-0.47NIIT Tech
-0.34Fine Organic Industries Ltd.
-0.29Fine Organic Industries Ltd.
-0.29Ceat
-0.23Ceat
+4.11Vinati Organics
+4.03APL Apollo Tube
+3.18Fine Organic Industries Ltd.
+2.29Chola Inv Fin
+1.47Ceat
 0.23NIIT Tech
-0.21NIIT Tech
-0.21NIIT Tech
-0.21APL Apollo Tube
-0.18Endurance Technologies Ltd.
+0.21Endurance Technologies Ltd.
 0.1Jubilant Food
-0.08Jubilant Food
 0.08Nalwa Sons Invst
 -0.06Nalwa Sons Invst
--0.06Ceat
--0.06Nalwa Sons Invst
--0.06Endurance Technologies Ltd.
--0.1Nalwa Sons Invst
--0.1Ceat
--1.23Nalwa Sons Invst
--2.06Larsen & Toubro
--4.11Larsen & Toubro
--4.11Nalwa Sons Invst
--2.06Ceat
--1.23Nalwa Sons Invst
--0.1Endurance Technologies Ltd.
--0.1Nalwa Sons Invst
--0.06Ceat
--0.06Nalwa Sons Invst
--0.06Nalwa Sons Invst
 -0.06Jubilant Food
-0.08Jubilant Food
 0.08Endurance Technologies Ltd.
-0.1APL Apollo Tube
-0.18NIIT Tech
-0.21NIIT Tech
-0.21NIIT Tech
+0.1NIIT Tech
 0.21Ceat
-0.23Ceat
-0.23Fine Organic Industries Ltd.
-0.29Fine Organic Industries Ltd.
-0.29NIIT Tech
-0.34Chola Inv Fin
-0.47Vinati Organics
-1.03Vinati Organics
-1.03Vinati Organics
-1.03Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Endurance Technologies Ltd.
-1.1Larsen & Toubro
-1.11NIIT Tech
-1.21Ceat
-1.23Ceat
-1.23Fine Organic Industries Ltd.
-1.29Chola Inv Fin
-1.47Chola Inv Fin
-1.47Jubilant Food
-2.08APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18APL Apollo Tube
-2.18Fine Organic Industries Ltd.
-2.29Chola Inv Fin
-2.47Vinati Organics
-3.03Larsen & Toubro
-3.11APL Apollo Tube
-3.18NIIT Tech
-3.21Fine Organic Industries Ltd.
-3.29Fine Organic Industries Ltd.
-3.29Chola Inv Fin
-3.47Vinati Organics
-4.03Vinati Organics
-4.03Nalwa Sons Invst
-4.06Jubilant Food
-4.08Larsen & Toubro
-4.08Jubilant Food
-4.08Endurance Technologies Ltd.
-4.1Larsen & Toubro
-4.11Chola Inv Fin
-4.47Jubilant Food
-5.08Larsen & Toubro
-5.11
+0.23Chola Inv Fin
+1.47Fine Organic Industries Ltd.
+2.29APL Apollo Tube
+3.18Vinati Organics
+4.03Larsen & Toubro
+4.11Exception in thread "main" java.lang.NumberFormatException: For input string: "Larsen & Toubro,4.08"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -1126,245 +542,49 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-ICRA
-5.84Bajaj Finserv
-5.64Tasty Bite Eat
-5.23Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
-4.83Lakshmi Machine
-4.7Schaeffler India
-4.59Nestle India
-4.57ICRA
-4.0Nestle India
-4.0Sanofi India
-4.0ICRA
-3.84Merck Ltd
-3.83Lakshmi Machine
-3.7Bajaj Finserv
-3.64MRF
-3.48MRF
-3.48TTK Prestige
-3.15ICRA
-2.84HEG Ltd
-2.61Schaeffler India
-2.57Schaeffler India
-2.573M India
-2.563M India
-2.56Bosch
-2.3Tasty Bite Eat
-2.23ICRA
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Bosch
+Merck Ltd
+4.83Schaeffler India
+2.57ICRA
 2.15TTK Prestige
 2.15Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0GSK Cons Health
-1.84Lakshmi Machine
-1.75HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
+2.0HEG Ltd
 1.61Eicher Motors
-1.6Eicher Motors
 1.6Nestle India
-1.57Nestle India
-1.57Nestle India
-1.57Schaeffler India
 1.573M India
-1.563M India
-1.563M India
-1.56Oracle Fin
-1.52Oracle Fin
-1.52MRF
-1.48MRF
-1.48Abbott India
-1.46WABCO India
-1.33WABCO India
+1.56WABCO India
 1.33Tasty Bite Eat
-1.23Tasty Bite Eat
 1.23Sanofi India
-1.21Sanofi India
 1.21Honeywell Auto
-1.08Honeywell Auto
 1.08GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
 0.84Lakshmi Machine
-0.7Lakshmi Machine
 0.7Bajaj Finserv
-0.64Bajaj Finserv
 0.64Oracle Fin
-0.52Oracle Fin
 0.52Abbott India
 0.48MRF
-0.48MRF
+0.48Bosch
+0.3Bosch
+0.3MRF
 0.48Abbott India
-0.46Abbott India
-0.46Bosch
-0.34WABCO India
-0.33WABCO India
-0.33Bosch
-0.3Bosch
-0.3Tasty Bite Eat
-0.23Sanofi India
-0.21TTK Prestige
-0.0Abbott India
-0.0Eicher Motors
-0.0Bosch
--0.3Abbott India
--0.46Oracle Fin
--0.52Bajaj Finserv
--0.64Lakshmi Machine
--0.7GSK Cons Health
--0.84GSK Cons Health
--0.84Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08Sanofi India
--1.21Sanofi India
--1.21Tasty Bite Eat
--1.23WABCO India
--1.33WABCO India
--1.333M India
--1.56Nestle India
--1.57Eicher Motors
--1.6Eicher Motors
--1.6Eicher Motors
--1.6Oracle Fin
--1.61HEG Ltd
--1.61HEG Ltd
--1.61Merck Ltd
--1.61Bharat Rasayan
--2.0Bharat Rasayan
--2.0TTK Prestige
--2.15Schaeffler India
--2.57Schaeffler India
--2.57ICRA
--2.84Bajaj Finserv
--4.64Merck Ltd
--5.83Merck Ltd
--5.83Bajaj Finserv
--4.64ICRA
--2.84Schaeffler India
--2.57Schaeffler India
--2.57TTK Prestige
--2.15Bharat Rasayan
--2.0Bharat Rasayan
--2.0HEG Ltd
--1.61HEG Ltd
--1.61Oracle Fin
--1.61Merck Ltd
--1.61Eicher Motors
--1.6Eicher Motors
--1.6Eicher Motors
--1.6Nestle India
--1.573M India
--1.56WABCO India
--1.33WABCO India
--1.33Tasty Bite Eat
--1.23Sanofi India
--1.21Sanofi India
--1.21Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08Honeywell Auto
--1.08GSK Cons Health
--0.84GSK Cons Health
--0.84Lakshmi Machine
--0.7Bajaj Finserv
--0.64Oracle Fin
--0.52Abbott India
--0.46Bosch
--0.3TTK Prestige
-0.0Eicher Motors
-0.0Abbott India
-0.0Sanofi India
-0.21Tasty Bite Eat
-0.23Bosch
-0.3Bosch
-0.3WABCO India
-0.33WABCO India
-0.33Bosch
-0.34Abbott India
-0.46Abbott India
-0.46Abbott India
-0.48MRF
-0.48MRF
 0.48Oracle Fin
-0.52Oracle Fin
 0.52Bajaj Finserv
-0.64Bajaj Finserv
 0.64Lakshmi Machine
-0.7Lakshmi Machine
 0.7GSK Cons Health
-0.84GSK Cons Health
-0.84GSK Cons Health
 0.84Honeywell Auto
-1.08Honeywell Auto
 1.08Sanofi India
-1.21Sanofi India
 1.21Tasty Bite Eat
-1.23Tasty Bite Eat
 1.23WABCO India
-1.33WABCO India
-1.33Abbott India
-1.46MRF
-1.48MRF
-1.48Oracle Fin
-1.52Oracle Fin
-1.523M India
-1.563M India
-1.563M India
+1.333M India
 1.56Nestle India
-1.57Nestle India
-1.57Nestle India
-1.57Schaeffler India
 1.57Eicher Motors
-1.6Eicher Motors
 1.6HEG Ltd
-1.61HEG Ltd
-1.61HEG Ltd
-1.61Lakshmi Machine
-1.75GSK Cons Health
-1.84Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bharat Rasayan
-2.0Bosch
+1.61Bharat Rasayan
+2.0ICRA
 2.15TTK Prestige
-2.15ICRA
-2.15TTK Prestige
-2.15TTK Prestige
-2.15Tasty Bite Eat
-2.23Bosch
-2.33M India
-2.563M India
-2.56Schaeffler India
-2.57Schaeffler India
-2.57HEG Ltd
-2.61ICRA
-2.84TTK Prestige
-3.15MRF
-3.48MRF
-3.48Bajaj Finserv
-3.64Lakshmi Machine
-3.7Merck Ltd
-3.83ICRA
-3.84ICRA
-4.0Nestle India
-4.0Sanofi India
-4.0Nestle India
-4.57Schaeffler India
-4.59Lakshmi Machine
-4.7Merck Ltd
-4.83Merck Ltd
-4.83Merck Ltd
-4.83Tasty Bite Eat
-5.23Bajaj Finserv
-5.64ICRA
-5.84
+2.15Schaeffler India
+2.57Merck Ltd
+4.83Exception in thread "main" java.lang.NumberFormatException: For input string: "MRF,3.48"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:61)
 ----------------------------------------

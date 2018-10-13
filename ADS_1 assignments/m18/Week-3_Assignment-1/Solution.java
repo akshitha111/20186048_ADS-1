@@ -33,7 +33,7 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int noOfStocks = Integer.parseInt(sc.nextLine());
 		//System.out.println(noOfStocks);
-		for(int i = 0; i < 6 * noOfStocks; i++) {
+		for(int i = 0; i < noOfStocks; i++) {
 			String[] tokens = sc.nextLine().split(",");
 			//System.out.println(tokens);
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
