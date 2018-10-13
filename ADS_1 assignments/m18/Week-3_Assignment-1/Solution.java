@@ -41,6 +41,7 @@ public final class Solution {
 		
 		//while(!maxpq.isEmpty() ) {
 			Stock s = maxpq.delMax();
+			s = minpq.delMin();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 		//}
