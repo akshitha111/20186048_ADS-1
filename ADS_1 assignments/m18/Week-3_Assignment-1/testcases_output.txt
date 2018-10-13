@@ -77,6 +77,11 @@ ICRA 2.84
 Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
+Bosch 0.3
+Abbott India 0.46
+MRF 0.48
+Oracle Fin 0.52
+Bajaj Finserv 0.64
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -157,6 +162,11 @@ Larsen & Toubro 4.08
 Jubilant Food 4.08
 Vinati Organics 4.03
 NIIT Tech 3.21
+Nalwa Sons Invst -0.06
+Nalwa Sons Invst -0.06
+Ceat -0.06
+Jubilant Food 0.08
+Endurance Technologies Ltd. 0.1
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -242,6 +252,11 @@ ICRA 2.84
 Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
+Bosch 0.3
+Abbott India 0.46
+MRF 0.48
+Oracle Fin 0.52
+Bajaj Finserv 0.64
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -327,6 +342,11 @@ Larsen & Toubro 4.08
 Jubilant Food 4.08
 Vinati Organics 4.03
 NIIT Tech 3.21
+Nalwa Sons Invst -0.06
+Nalwa Sons Invst -0.06
+Ceat -0.06
+Jubilant Food 0.08
+Endurance Technologies Ltd. 0.1
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -427,4 +447,9 @@ Schaeffler India 2.57
 ICRA 2.15
 TTK Prestige 2.15
 Bharat Rasayan 2.0
+Bosch 0.3
+MRF 0.48
+Abbott India 0.48
+Oracle Fin 0.52
+Bajaj Finserv 0.64
 ----------------------------------------
