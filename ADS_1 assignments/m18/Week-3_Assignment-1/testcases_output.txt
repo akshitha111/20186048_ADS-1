@@ -83,6 +83,7 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 ICRA 4.84
@@ -231,6 +232,7 @@ Nalwa Sons Invst -0.06
 Ceat -0.06
 Jubilant Food 0.08
 Endurance Technologies Ltd. 0.1
+
 Chola Inv Fin 4.47
 Jubilant Food 4.08
 Vinati Organics 4.03
@@ -348,6 +350,7 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 ICRA 4.84
@@ -501,6 +504,7 @@ Nalwa Sons Invst -0.06
 Ceat -0.06
 Jubilant Food 0.08
 Endurance Technologies Ltd. 0.1
+
 Chola Inv Fin 4.47
 Jubilant Food 4.08
 Vinati Organics 4.03
@@ -633,6 +637,7 @@ MRF 0.48
 Abbott India 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+
 Bajaj Finserv 5.64
 Schaeffler India 4.59
 ICRA 4.0
