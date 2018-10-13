@@ -83,6 +83,11 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+HEG Ltd 1.61
+Eicher Motors 1.6
+Nestle India 1.57
+3M India 1.56
+WABCO India 1.33
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -169,6 +174,11 @@ Nalwa Sons Invst -0.06
 Ceat -0.06
 Jubilant Food 0.08
 Endurance Technologies Ltd. 0.1
+APL Apollo Tube 3.18
+Vinati Organics 3.03
+Chola Inv Fin 2.47
+Fine Organic Industries Ltd. 2.29
+APL Apollo Tube 2.18
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -260,6 +270,11 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+HEG Ltd 1.61
+Eicher Motors 1.6
+Nestle India 1.57
+3M India 1.56
+WABCO India 1.33
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -351,6 +366,11 @@ Nalwa Sons Invst -0.06
 Ceat -0.06
 Jubilant Food 0.08
 Endurance Technologies Ltd. 0.1
+APL Apollo Tube 3.18
+Vinati Organics 3.03
+Chola Inv Fin 2.47
+Fine Organic Industries Ltd. 2.29
+APL Apollo Tube 2.18
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -457,4 +477,9 @@ MRF 0.48
 Abbott India 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
+HEG Ltd 1.61
+Eicher Motors 1.6
+Nestle India 1.57
+3M India 1.56
+WABCO India 1.33
 ----------------------------------------
