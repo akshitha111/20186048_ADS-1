@@ -42,7 +42,7 @@ public final class Solution {
 		while(!maxpq.isEmpty()) {
 			for(int i = 0; i < 5; i++) {
 			 Stock s = maxpq.delMax();
-			 System.out.println(s.getName());
+			 System.out.print(s.getName());
 			 System.out.print(s.getPercent());
 			}
 		}
