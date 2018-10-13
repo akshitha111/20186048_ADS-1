@@ -35,6 +35,8 @@ class Stock implements Comparable<Stock> {
 	public void setName(Stock that) {
 		if(this.percent == that.percent) {
 			System.out.println(this.name);
+		}else {
+			System.out.println(that.name);
 		}
 	}
 	/**
