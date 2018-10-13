@@ -33,17 +33,17 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int noOfStocks = Integer.parseInt(sc.nextLine());
 		//System.out.println(noOfStocks);
-		for(int i = 0; i < noOfStocks; i++) {
+		for(int i = 0; i < 20; i++) {
 			String[] tokens = sc.nextLine().split(",");
 			//System.out.println(tokens);
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 		
-		while(!maxpq.isEmpty() ) {
+		//while(!maxpq.isEmpty() ) {
 			Stock s = maxpq.delMax();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
-		}
+		//}
 	}
 		//while(!maxpq.isEmpty() && !minpq.isEmpty()) {
 			//for(int i = 0; i < 5; i++) {
