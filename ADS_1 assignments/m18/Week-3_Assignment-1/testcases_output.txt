@@ -92,7 +92,9 @@ Merck Ltd
 0.52MRF 
 0.48Abbott India 
 0.46Bosch 
-0.3
+0.3Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MinPQ.delMin(MinPQ.java:150)
+	at Solution.main(Solution.java:52)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -188,7 +190,9 @@ Larsen & Toubro
 0.08Nalwa Sons Invst 
 -0.06Nalwa Sons Invst 
 -0.06Ceat 
--0.06
+-0.06Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MinPQ.delMin(MinPQ.java:150)
+	at Solution.main(Solution.java:52)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -289,7 +293,9 @@ Merck Ltd
 0.52MRF 
 0.48Abbott India 
 0.46Bosch 
-0.3
+0.3Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MinPQ.delMin(MinPQ.java:150)
+	at Solution.main(Solution.java:52)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -390,7 +396,9 @@ Larsen & Toubro
 0.08Nalwa Sons Invst 
 -0.06Nalwa Sons Invst 
 -0.06Ceat 
--0.06
+-0.06Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MinPQ.delMin(MinPQ.java:150)
+	at Solution.main(Solution.java:52)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -506,5 +514,7 @@ Merck Ltd
 0.52Abbott India 
 0.48MRF 
 0.48Bosch 
-0.3
+0.3Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MinPQ.delMin(MinPQ.java:150)
+	at Solution.main(Solution.java:52)
 ----------------------------------------
