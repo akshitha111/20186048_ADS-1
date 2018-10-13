@@ -72,7 +72,27 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Merck Ltd4.83ICRA2.84Schaeffler India2.57TTK Prestige2.15Bharat Rasayan2.0HEG Ltd1.61Eicher Motors1.6Nestle India1.573M India1.56WABCO India1.33Tasty Bite Eat1.23Sanofi India1.21Honeywell Auto1.08GSK Cons Health0.84Lakshmi Machine0.7Bajaj Finserv0.64Oracle Fin0.52MRF0.48Abbott India0.46Bosch0.3Bosch
+Merck Ltd4.83
+ICRA2.84
+Schaeffler India2.57
+TTK Prestige2.15
+Bharat Rasayan2.0
+HEG Ltd1.61
+Eicher Motors1.6
+Nestle India1.57
+3M India1.56
+WABCO India1.33
+Tasty Bite Eat1.23
+Sanofi India1.21
+Honeywell Auto1.08
+GSK Cons Health0.84
+Lakshmi Machine0.7
+Bajaj Finserv0.64
+Oracle Fin0.52
+MRF0.48
+Abbott India0.46
+Bosch0.3
+Bosch
 0.3Abbott India
 0.46MRF
 0.48Oracle Fin
@@ -172,7 +192,17 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Larsen & Toubro4.11Vinati Organics4.03APL Apollo Tube3.18Fine Organic Industries Ltd.2.29Chola Inv Fin1.47Ceat0.23NIIT Tech0.21Endurance Technologies Ltd.0.1Jubilant Food0.08Nalwa Sons Invst-0.06Nalwa Sons Invst
+Larsen & Toubro4.11
+Vinati Organics4.03
+APL Apollo Tube3.18
+Fine Organic Industries Ltd.2.29
+Chola Inv Fin1.47
+Ceat0.23
+NIIT Tech0.21
+Endurance Technologies Ltd.0.1
+Jubilant Food0.08
+Nalwa Sons Invst-0.06
+Nalwa Sons Invst
 -0.06Jubilant Food
 0.08Endurance Technologies Ltd.
 0.1NIIT Tech
@@ -267,7 +297,27 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Merck Ltd4.83ICRA2.84Schaeffler India2.57TTK Prestige2.15Bharat Rasayan2.0HEG Ltd1.61Eicher Motors1.6Nestle India1.573M India1.56WABCO India1.33Tasty Bite Eat1.23Sanofi India1.21Honeywell Auto1.08GSK Cons Health0.84Lakshmi Machine0.7Bajaj Finserv0.64Oracle Fin0.52MRF0.48Abbott India0.46Bosch0.3Bosch
+Merck Ltd4.83
+ICRA2.84
+Schaeffler India2.57
+TTK Prestige2.15
+Bharat Rasayan2.0
+HEG Ltd1.61
+Eicher Motors1.6
+Nestle India1.57
+3M India1.56
+WABCO India1.33
+Tasty Bite Eat1.23
+Sanofi India1.21
+Honeywell Auto1.08
+GSK Cons Health0.84
+Lakshmi Machine0.7
+Bajaj Finserv0.64
+Oracle Fin0.52
+MRF0.48
+Abbott India0.46
+Bosch0.3
+Bosch
 0.3Abbott India
 0.46MRF
 0.48Oracle Fin
@@ -372,7 +422,17 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Larsen & Toubro4.11Vinati Organics4.03APL Apollo Tube3.18Fine Organic Industries Ltd.2.29Chola Inv Fin1.47Ceat0.23NIIT Tech0.21Endurance Technologies Ltd.0.1Jubilant Food0.08Nalwa Sons Invst-0.06Nalwa Sons Invst
+Larsen & Toubro4.11
+Vinati Organics4.03
+APL Apollo Tube3.18
+Fine Organic Industries Ltd.2.29
+Chola Inv Fin1.47
+Ceat0.23
+NIIT Tech0.21
+Endurance Technologies Ltd.0.1
+Jubilant Food0.08
+Nalwa Sons Invst-0.06
+Nalwa Sons Invst
 -0.06Jubilant Food
 0.08Endurance Technologies Ltd.
 0.1NIIT Tech
@@ -482,7 +542,27 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Merck Ltd4.83Schaeffler India2.57ICRA2.15TTK Prestige2.15Bharat Rasayan2.0HEG Ltd1.61Eicher Motors1.6Nestle India1.573M India1.56WABCO India1.33Tasty Bite Eat1.23Sanofi India1.21Honeywell Auto1.08GSK Cons Health0.84Lakshmi Machine0.7Bajaj Finserv0.64Oracle Fin0.52Abbott India0.48MRF0.48Bosch0.3Bosch
+Merck Ltd4.83
+Schaeffler India2.57
+ICRA2.15
+TTK Prestige2.15
+Bharat Rasayan2.0
+HEG Ltd1.61
+Eicher Motors1.6
+Nestle India1.57
+3M India1.56
+WABCO India1.33
+Tasty Bite Eat1.23
+Sanofi India1.21
+Honeywell Auto1.08
+GSK Cons Health0.84
+Lakshmi Machine0.7
+Bajaj Finserv0.64
+Oracle Fin0.52
+Abbott India0.48
+MRF0.48
+Bosch0.3
+Bosch
 0.3MRF
 0.48Abbott India
 0.48Oracle Fin
