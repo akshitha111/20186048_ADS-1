@@ -65,13 +65,13 @@ public final class Solution {
 		
 	//}
 		//System.out.println(getPercent());
-		int noOfQueries = Integer.parseInt(sc.nextLine());
+		//int noOfQueries = Integer.parseInt(sc.nextLine());
 		//System.out.println(noOfQueries);
-		if(noOfQueries > 0) {
-			for(int i = 0; i < noOfQueries; i++) {
-				String[] check = sc.nextLine().split(",");
+		//if(noOfQueries > 0) {
+			/*for(int i = 0; i < noOfQueries; i++) {
+				String[] check = sc.nextLine().split(",");*/
 				//System.out.println(check[0]);
-			}
-		}
+			//}
+		//}
 	}
 }
