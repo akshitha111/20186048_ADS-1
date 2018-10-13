@@ -318,7 +318,7 @@ public final class Solution {
             if (count == pair - 1) {
                 number--;
                 if (number == 0) {
-                    
+                    System.out.println(s.getSum());
                     break;
                 }
             }
