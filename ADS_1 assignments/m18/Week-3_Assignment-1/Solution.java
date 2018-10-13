@@ -38,12 +38,13 @@ public final class Solution {
 			//System.out.println(tokens);
 			minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
 			maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
-		}
+		
 		while(!maxpq.isEmpty() && maxpq.size() <= 5) {
 			Stock s = maxpq.delMax();
 			 System.out.print(s.getName() + " ");
 			 System.out.println(s.getPercent());
 		}
+	}
 		//while(!maxpq.isEmpty() && !minpq.isEmpty()) {
 			//for(int i = 0; i < 5; i++) {
 			 /*Stock s = maxpq.delMax();
