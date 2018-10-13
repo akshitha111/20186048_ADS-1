@@ -47,6 +47,13 @@ public final class Solution {
 			 System.out.println(s.getPercent());*/
 		//}
 	}
+		while(!minpq.isEmpty()) {
+			//for(int i = 0; i < 5; i++) {
+			Stock s = minpq.delMin();
+			 System.out.println(s.getName() + " ");
+			 System.out.print(s.getPercent());
+			}
+
 		while(!maxpq.isEmpty() ) {
 			//for(int i = 0; i < 5; i++) {
 			 Stock s = maxpq.delMax();
@@ -58,12 +65,7 @@ public final class Solution {
 		
 
 		
-		//while(!minpq.isEmpty()) {
-			//for(int i = 0; i < 5; i++) {
-			 /*s = minpq.delMin();
-			 System.out.println(s.getName() + " ");
-			 System.out.print(s.getPercent());*/
-			//}
+		
 		//}
 
 		
