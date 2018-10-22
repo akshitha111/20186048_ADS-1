@@ -80,7 +80,7 @@ public final class Solution {
                 String[] tokens = sc.nextLine().split(",");
             minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
             maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
-            }
+            }System.out.println(minpq.delMin());
 
             for (int k = 0; k < (2 + 2 + 1); k++) {
             Stock s = minpq.delMin();
