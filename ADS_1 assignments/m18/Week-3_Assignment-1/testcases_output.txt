@@ -222,8 +222,8 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
 Larsen & Toubro 4.11
-Larsen & Toubro 4.08
 Jubilant Food 4.08
+Larsen & Toubro 4.08
 Vinati Organics 4.03
 NIIT Tech 3.21
 
@@ -240,8 +240,8 @@ Chola Inv Fin 3.47
 Fine Organic Industries Ltd. 3.29
 
 Larsen & Toubro -4.11
-Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.1
+Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.06
 Jubilant Food 0.08
 
@@ -494,8 +494,8 @@ Chola Inv Fin 1.47
 0
 Your Output: 
 Larsen & Toubro 4.11
-Larsen & Toubro 4.08
 Jubilant Food 4.08
+Larsen & Toubro 4.08
 Vinati Organics 4.03
 NIIT Tech 3.21
 
@@ -512,8 +512,8 @@ Chola Inv Fin 3.47
 Fine Organic Industries Ltd. 3.29
 
 Larsen & Toubro -4.11
-Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.1
+Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.06
 Jubilant Food 0.08
 
@@ -646,9 +646,9 @@ Sanofi India 4.0
 
 Merck Ltd -5.83
 Honeywell Auto -1.08
+TTK Prestige 0.0
 Eicher Motors 0.0
 Abbott India 0.0
-TTK Prestige 0.0
 
 Tasty Bite Eat 5.23
 Nestle India 4.57
@@ -659,8 +659,8 @@ MRF 3.48
 Bajaj Finserv -4.64
 Schaeffler India -2.57
 Bharat Rasayan -2.0
-HEG Ltd -1.61
 Oracle Fin -1.61
+Merck Ltd -1.61
 
 Merck Ltd 4.83
 MRF 3.48
@@ -672,7 +672,7 @@ ICRA -2.84
 Schaeffler India -2.57
 TTK Prestige -2.15
 Bharat Rasayan -2.0
-Merck Ltd -1.61
+HEG Ltd -1.61
 
 Merck Ltd 4.83
 ICRA 2.84
