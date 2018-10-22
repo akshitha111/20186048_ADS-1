@@ -98,5 +98,10 @@ public final class Solution {
         System.out.println();
 
         }
+
+        int no = Integer.parseInt(sc.nextLine());
+        if(no != 0) {
+            System.out.println("jj");
             }
+        }
         }
