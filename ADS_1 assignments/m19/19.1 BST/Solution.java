@@ -422,7 +422,11 @@ public final class Solution {
         //unused constructor.
     }
 
-    
+    /**
+     * Client program.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         BinarySearchTree bstobj = new BinarySearchTree();
