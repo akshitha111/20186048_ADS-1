@@ -434,8 +434,8 @@ public final class Solution {
             String[] check = sc.nextLine().split(",");
             switch (check[0]) {
             case "put":
-                BookDetails deobj = new BookDetails(check[1],
-                    check[2], Float.parseFloat(check[2 + 1]));
+                BookDetails deobj = new BookDetails(check[1], check[2], 
+                	Float.parseFloat(check[2 + 1]));
                 bstobj.put(deobj, Integer.parseInt(check[2 + 2]));
                 break;
             case "get":
