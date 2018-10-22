@@ -68,7 +68,14 @@ class BookDetails implements Comparable {
         return this.name.compareTo(that.name);
     }
 
-    
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
+    public String toString() {
+        return getName() + ", " +  getAuthor() + ", " + getPrice();
+    }
 }
 
 

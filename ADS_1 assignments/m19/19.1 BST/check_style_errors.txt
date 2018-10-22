@@ -1,6 +1,5 @@
 Starting audit...
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m19\19.1 BST\Solution.java:71: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m19\19.1 BST\Solution.java:418: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m19\19.1 BST\Solution.java:419:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m19\19.1 BST\Solution.java:425: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m19\19.1 BST\Solution.java:426:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
