@@ -76,20 +76,20 @@ public final class Solution {
         int noOfStocks = Integer.parseInt(sc.nextLine());
         //while(sc.hasNext())
         for (int i = 0; i < (2 + 2 + 2) ; i++) {
-            for (i = 0; i < (2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2); i++) {
+            for (int j = 0; j < (2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2); j++) {
                 String[] tokens = sc.nextLine().split(",");
             minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
             maxpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));
             }
 
-            for (i = 0; i < (2 + 2 + 1); i++) {
+            for (int k = 0; k < (2 + 2 + 1); k++) {
             Stock s = minpq.delMin();
              System.out.print(s.getName() + " ");
              System.out.println(s.getPercent());
             }
             System.out.println();
 
-            for (i = 0; i < (2 + 2 + 1); i++) {
+            for (int l = 0; l < (2 + 2 + 1); l++) {
             Stock s = maxpq.delMax();
              System.out.print(s.getName() + " ");
              System.out.println(s.getPercent());
