@@ -46,10 +46,10 @@ class Stock implements Comparable<Stock> {
      */
     public int compareTo(final Stock that) {
         if (this.percent > that.percent) {
-            return +1;
+            return -1;
         }
         if (this.percent < that.percent) {
-            return -1;
+            return +1;
         }
         return this.getName().compareTo(that.getName());
         }
@@ -75,7 +75,7 @@ public final class Solution {
         Scanner sc = new Scanner(System.in);
         int noOfStocks = Integer.parseInt(sc.nextLine());
         //while(sc.hasNext())
-        for (int i = 0; i < (2 + 2 + 2) * noOfStocks; i++) {
+        for (int i = 0; i < (2 + 2 + 2) ; i++) {
             for (i = 0; i < (2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2); i++) {
                 String[] tokens = sc.nextLine().split(",");
             minpq.insert(new Stock(tokens[0], Float.parseFloat(tokens[1])));

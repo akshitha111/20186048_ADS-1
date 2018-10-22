@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m18\Week-3_Assignment-1\Solution.java:78:40: ';' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
+Checkstyle ends with 1 errors.
