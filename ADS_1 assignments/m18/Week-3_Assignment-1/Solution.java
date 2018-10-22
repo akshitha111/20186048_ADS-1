@@ -84,15 +84,15 @@ public final class Solution {
 
             for (int k = 0; k < (2 + 2 + 1); k++) {
             Stock s = minpq.delMin();
-             System.out.print(s.getName() + " ");
-             System.out.println(s.getPercent());
+             System.out.print(minpq.delMin().getName() + " ");
+             System.out.println(minpq.delMin().getPercent());
             }
             System.out.println();
 
             for (int l = 0; l < (2 + 2 + 1); l++) {
             Stock s = maxpq.delMax();
-             System.out.print(s.getName() + " ");
-             System.out.println(s.getPercent());
+             System.out.print(maxpq.delMax().getName() + " ");
+             System.out.println(maxpq.delMax().getPercent());
             //}
         }
         System.out.println();
