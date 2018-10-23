@@ -503,8 +503,11 @@ class Solution {
                 bstobj.deleteMax();
                 break;
             case "deleteMin":
-
                 bstobj.deleteMin();
+                break;
+            case "delete":
+                deobj = new BookDetails(check[1], check[2], Float.parseFloat(check[2 + 1]));
+                
             default:
                 break;
             }
