@@ -421,100 +421,117 @@ class BinarySearchTree {
      * { function_description }.
      */
     public void deleteMax() {
-        if (isEmpty()) 
-            {
+        if (isEmpty()) {
+            //{
                 throw new NoSuchElementException("Symbol table underflow");
             }
         root = deleteMax(root);
         //assert check();
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      x     { parameter_description }
      *
      * @return     { description_of_the_return_value }
      */
-    private Node deleteMax(Node x) {
-        if (x.right == null) return x.left;
+    private Node deleteMax(final Node x) {
+        if (x.right == null) {
+            return x.left;
+        }
         x.right = deleteMax(x.right);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
     /**
-     * { function_description }
+     * { function_description }.
      */
     public void deleteMin() {
-        if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        if (isEmpty()) {
+            throw new NoSuchElementException("Symbol table underflow");
+        }
         root = deleteMin(root);
        // assert check();
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      x     { parameter_description }
      *
      * @return     { description_of_the_return_value }
      */
-    private Node deleteMin(Node x) {
-        if (x.left == null) return x.right;
+    private Node deleteMin(final Node x) {
+        if (x.left == null) {
+            return x.right;
+        }
         x.left = deleteMin(x.left);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      key   The key
      */
-    public void delete(BookDetails key) {
-        if (key == null) throw new IllegalArgumentException("calls delete() with a null key");
+    public void delete(final BookDetails key) {
+        if (key == null) {
+            throw new IllegalArgumentException(
+                "calls delete() with a null key");
+        }
         root = delete(root, key);
        // assert check();
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      x     { parameter_description }
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
      */
-    private Node delete(Node x, BookDetails key) {
-        if (x == null) return null;
-
-        int cmp = key.compareTo(x.key);
-        if      (cmp < 0) x.left  = delete(x.left,  key);
-        else if (cmp > 0) x.right = delete(x.right, key);
-        else { 
-            if (x.right == null) return x.left;
-            if (x.left  == null) return x.right;
+    private Node delete(final Node x, final BookDetails key) {
+        Node x1 = x;
+        if (x1 == null) {
+            return null;
+        }
+        int cmp = key.compareTo(x1.key);
+        if      (cmp < 0) {
+            x1.left  = delete(x1.left,  key);
+        } else if (cmp > 0) {
+            x1.right = delete(x1.right, key);
+        } else {
+            if (x1.right == null) {
+                return x1.left;
+            }
+            if (x1.left  == null) {
+                return x1.right;
+            }
             Node t = x;
-            x = min(t.right);
-            x.right = deleteMin(t.right);
-            x.left = t.left;
-        } 
-        x.size = size(x.left) + size(x.right) + 1;
+            x1 = min(t.right);
+            x1.right = deleteMin(t.right);
+            x1.left = t.left;
+        }
+        x1.size = size(x1.left) + size(x1.right) + 1;
         return x;
-    } 
+    }
 }
 /**
  * Class for solution.
  */
-class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
 
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      args  The arguments
      */
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         BinarySearchTree bstobj = new BinarySearchTree();
         while (sc.hasNext()) {
@@ -570,5 +587,5 @@ class Solution {
         }
     }
 }
-    
+
 
