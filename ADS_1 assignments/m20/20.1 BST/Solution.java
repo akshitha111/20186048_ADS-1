@@ -507,7 +507,8 @@ class Solution {
                 break;
             case "delete":
                 deobj = new BookDetails(check[1], check[2], Float.parseFloat(check[2 + 1]));
-                
+                bstobj.delete(deobj);
+                break;
             default:
                 break;
             }
