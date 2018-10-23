@@ -78,6 +78,9 @@ class BookDetails implements Comparable {
         return getName() + ", " +  getAuthor() + ", " + getPrice();
     }
 }
+/**
+ * Class for binary search tree.
+ */
 class BinarySearchTree {
     /**
      * variable for root.
@@ -138,6 +141,11 @@ class BinarySearchTree {
     public int size() {
         return size(root);
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return size() == 0;
     }
@@ -409,35 +417,69 @@ class BinarySearchTree {
             return size(x.left);
         }
     }
+    /**
+     * { function_description }.
+     */
     public void deleteMax() {
-        if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        if (isEmpty()) 
+            {
+                throw new NoSuchElementException("Symbol table underflow");
+            }
         root = deleteMax(root);
         //assert check();
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private Node deleteMax(Node x) {
         if (x.right == null) return x.left;
         x.right = deleteMax(x.right);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
+    /**
+     * { function_description }
+     */
     public void deleteMin() {
         if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
         root = deleteMin(root);
        // assert check();
     }
-
+    /**
+     * { function_description }
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private Node deleteMin(Node x) {
         if (x.left == null) return x.right;
         x.left = deleteMin(x.left);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
+    /**
+     * { function_description }
+     *
+     * @param      key   The key
+     */
     public void delete(BookDetails key) {
         if (key == null) throw new IllegalArgumentException("calls delete() with a null key");
         root = delete(root, key);
        // assert check();
     }
+    /**
+     * { function_description }
+     *
+     * @param      x     { parameter_description }
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
     private Node delete(Node x, BookDetails key) {
         if (x == null) return null;
 
@@ -456,11 +498,23 @@ class BinarySearchTree {
         return x;
     } 
 }
-
+/**
+ * Class for solution.
+ */
 class Solution {
+    /**
+     * Constructs the object.
+     */
     Solution() {
 
-    }public static void main(String[] args) {
+    }
+    /**
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BinarySearchTree bstobj = new BinarySearchTree();
         while (sc.hasNext()) {
@@ -506,7 +560,8 @@ class Solution {
                 bstobj.deleteMin();
                 break;
             case "delete":
-                deobj = new BookDetails(check[1], check[2], Float.parseFloat(check[2 + 1]));
+                deobj = new BookDetails(check[1], check[2],
+                    Float.parseFloat(check[2 + 1]));
                 bstobj.delete(deobj);
                 break;
             default:
