@@ -418,7 +418,8 @@ class BinarySearchTree {
         }
     }
     /**
-     * { function_description }.
+     * { function for deleting max element }.
+     * time complexity is root N.
      */
     public void deleteMax() {
         if (isEmpty()) {
@@ -429,8 +430,8 @@ class BinarySearchTree {
         //assert check();
     }
     /**
-     * { function_description }.
-     *
+     * { function for deleting max element }.
+     * time complexity is root N.
      * @param      x     { parameter_description }
      *
      * @return     { description_of_the_return_value }
@@ -444,7 +445,8 @@ class BinarySearchTree {
         return x;
     }
     /**
-     * { function_description }.
+     * { function for deleting min element }.
+     * time complexity is root N.
      */
     public void deleteMin() {
         if (isEmpty()) {
@@ -454,11 +456,11 @@ class BinarySearchTree {
        // assert check();
     }
     /**
-     * { function_description }.
-     *
+     * { function for deleteting min element }.
+     * time complexity is root N.
      * @param      x     { parameter_description }
      *
-     * @return     { description_of_the_return_value }
+     * @return     { node is returned }
      */
     private Node deleteMin(final Node x) {
         if (x.left == null) {
@@ -469,8 +471,8 @@ class BinarySearchTree {
         return x;
     }
     /**
-     * { function_description }.
-     *
+     * { function for delete }.
+     * time complexity is root N.
      * @param      key   The key
      */
     public void delete(final BookDetails key) {
@@ -482,8 +484,8 @@ class BinarySearchTree {
        // assert check();
     }
     /**
-     * { function_description }.
-     *
+     * { function for delete }.
+     * time complexity is root N.
      * @param      x     { parameter_description }
      * @param      key   The key
      *
@@ -523,10 +525,10 @@ public final class Solution {
      * Constructs the object.
      */
     private Solution() {
-
+        //unused constructor.
     }
     /**
-     * { function_description }.
+     * { Client program }.
      *
      * @param      args  The arguments
      */
