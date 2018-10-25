@@ -23,6 +23,8 @@ public final class Solution {
         for (int i = 0; i < magazine.length; i++) {
             if (chaining.contains(magazine[i])) {
                 chaining.put(magazine[i], chaining.get(magazine[i]) + 1);
+            } else {
+                chaining.put(magazine[i], 1);
             }
         }
         String[] tobeSearched = scan.nextLine().split(" ");
@@ -34,7 +36,10 @@ public final class Solution {
                 } else {
                     chaining.put(
                         tobeSearched[i], chaining.get(tobeSearched[i]) - 1);
-                }
+                } 
+            } else {
+                System.out.print("No");
+                return;
             }
         }
         System.out.println("Yes");
