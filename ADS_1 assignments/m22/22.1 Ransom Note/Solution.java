@@ -23,7 +23,7 @@ public final class Solution {
         for (int i = 0; i < magazine.length; i++) {
             if (chaining.contains(magazine[i])) {
                 chaining.put(magazine[i], chaining.get(magazine[i]) + 1);
-            } 
+            }
         }
         String[] tobeSearched = scan.nextLine().split(" ");
         for (int i = 0; i < tobeSearched.length; i++) {
