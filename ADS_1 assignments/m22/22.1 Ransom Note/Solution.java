@@ -36,7 +36,7 @@ public final class Solution {
                 } else {
                     chaining.put(
                         tobeSearched[i], chaining.get(tobeSearched[i]) - 1);
-                } 
+                }
             } else {
                 System.out.print("No");
                 return;
