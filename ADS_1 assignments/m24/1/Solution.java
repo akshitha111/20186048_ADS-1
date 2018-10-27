@@ -8,6 +8,9 @@ class Student {
 		this.rollNumber = r;
 		this.marks= m;
 	}
+	/*public String toString() {
+
+	}*/
 
 }
 class Solution{
@@ -19,7 +22,12 @@ class Solution{
 		int a = sc.nextInt();
 		for(int i = 0; i < a; i++) {
 			String[] tokens =  sc.nextLine().split(",");
-			System.out.println(tokens);
+			//System.out.println(tokens);
+		}
+		int noOfQueries = sc.nextInt();
+		for(int i = 0; i < noOfQueries; i++) {
+			String[] check = sc.nextLine().split(" ");
+			System.out.println(check);
 		}
 	}
 }
