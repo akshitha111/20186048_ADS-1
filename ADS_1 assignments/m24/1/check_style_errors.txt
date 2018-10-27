@@ -24,6 +24,5 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:370:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:372: Line is longer than 80 characters (found 120). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:377:22: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:381: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 25 errors.

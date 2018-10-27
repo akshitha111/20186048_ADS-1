@@ -378,6 +378,6 @@ class Solution{
 			String[] check = sc.nextLine().split(" ");
 			b--;
 		}
-		
+		System.out.println("Student does not exist");
 	}
 }
