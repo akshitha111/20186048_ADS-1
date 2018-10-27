@@ -17,6 +17,7 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:35: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:35:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:36:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:36:9: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:38:17: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:38:41: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:40: Line is longer than 80 characters (found 103). [LineLength]
@@ -29,4 +30,4 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:54:53: '101' is a magic number. [MagicNumber]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:64: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 30 errors.
