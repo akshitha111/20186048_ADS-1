@@ -261,7 +261,9 @@ final class Solution {
                 case "display":
                 lpt.display();
                 break;
-                
+                case "delete":
+                lpt.delete(tokens[1]);
+                break;
                 case "get":
                 System.out.println(lpt.get(tokens[1]));
                 break;
