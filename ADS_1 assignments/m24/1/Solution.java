@@ -18,8 +18,8 @@ class Solution{
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		for(int i = 0; i < a; i++) {
-			sc.nextLine();
-			System.out.println(i);
+			String[] tokens =  sc.nextLine().split(",");
+			System.out.println(tokens);
 		}
 	}
 }
