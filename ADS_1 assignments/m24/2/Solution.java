@@ -51,7 +51,7 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
-				bstobj.put("Clark", 141);
+				bstobj.put("Clark", 101);
 				System.out.println(bstobj);
 					bstobj.keys(check[1], check[2]);
 					break;
@@ -59,6 +59,10 @@ class Solution {
                 /*Student s = new Student(Integer.parseInt(check[1]),
                     check[2], Float.parseFloat(check[2 + 1]));*/
                 System.out.println(bstobj.floor(check[1]));
+                break;
+                case "GE":
+                Student s = new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2]));
+                System.out.println(bstobj.ceiling("70.0"));
                 break;
 			}
 			b--;

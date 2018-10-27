@@ -57,7 +57,11 @@ Abegg
 Brian Caffrey
 Your Output: 
 BinarySearchST@30c7da1e
-null
+Exception in thread "main" java.lang.NumberFormatException: For input string: "GE"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:64)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -845,11 +849,9 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-null
-null
-BinarySearchST@30c7da1e
-null
-BinarySearchST@30c7da1e
-null
-BinarySearchST@30c7da1e
+Exception in thread "main" java.lang.NumberFormatException: For input string: "GE"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:64)
 ----------------------------------------
