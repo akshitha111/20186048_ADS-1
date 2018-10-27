@@ -372,6 +372,7 @@ class Solution{
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			System.out.println(check[0]);
+			a--;
 		}
 		
 		
