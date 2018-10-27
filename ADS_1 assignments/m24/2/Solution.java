@@ -42,7 +42,7 @@ class Solution {
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-			bstobj.put(check[1], Integer.parseInt(check[3]));
+			bstobj.put(check[1], Integer.parseInt(check[2]));
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
