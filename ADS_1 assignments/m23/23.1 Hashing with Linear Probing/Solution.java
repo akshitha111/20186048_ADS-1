@@ -235,10 +235,15 @@ class LinearProbingHashing<Key, Value> {
     }
 }
 
-final class Solution {
-    
+/**
+ * this is a solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        //unused constructor.
     }
     /**
      * reads input.
