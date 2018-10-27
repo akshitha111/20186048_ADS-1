@@ -363,14 +363,14 @@ class BinarySearchTree {
 class Solution{
 	Solution() {
 
-	}public static void main(String[] args) {
+	}
+    public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		BinarySearchTree bstobj = new BinarySearchTree();
 		int a = Integer.parseInt(sc.nextLine());
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
@@ -378,6 +378,6 @@ class Solution{
 			String[] check = sc.nextLine().split(" ");
 			b--;
 		}
-		System.out.println("Student does not exist");
+		
 	}
 }
