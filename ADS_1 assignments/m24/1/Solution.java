@@ -368,7 +368,11 @@ class Solution{
 		Scanner sc = new Scanner(System.in);
 		BinarySearchTree bstobj = new BinarySearchTree();
 		int a = Integer.parseInt(sc.nextLine());
-		System.out.println(a);
+		//System.out.println(a);
+		while(a > 0) {
+			String[] check = sc.nextLine().split(",");
+			System.out.println(check[0]);
+		}
 		
 		
 	}
