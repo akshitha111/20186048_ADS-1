@@ -20,10 +20,10 @@ class Student {
 		return this.marks;
 	}
 
-	/*public int compareTo(final Object object) {
+	public int compareTo(final Object object) {
         Student that = (Student) object;
         return this.name.compareTo(that.name);
-    }*/
+    }
 
     public String toString() {
     	return this.getName();
@@ -52,6 +52,7 @@ class Solution {
 			switch(check[0]) {
 				case "BE":
 				bstobj.put("Clark", 141);
+				System.out.println(bstobj);
 					bstobj.keys(check[1], check[2]);
 					break;
 				case "LE":
