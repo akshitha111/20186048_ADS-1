@@ -255,7 +255,8 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
-        LinearProbingHashing<String, Integer> lpt = new LinearProbingHashing<String, Integer>();
+        LinearProbingHashing<String, Integer> lpt = new 
+        LinearProbingHashing<String, Integer>();
         int lines = Integer.parseInt(input.nextLine());
         for (int i = 0; i < lines; i++) {
             String[] tokens = input.nextLine().split(" ");
