@@ -51,7 +51,7 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
-					System.out.println(bstobj.keys(check[1], check[2]));
+					bstobj.keys(check[1], check[2]);
 			}
 			b--;
 		}
