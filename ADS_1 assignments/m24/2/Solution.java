@@ -24,6 +24,10 @@ class Student implements Comparable{
         Student that = (Student) object;
         return this.name.compareTo(that.name);
     }
+
+    public String toString() {
+    	return this.name;
+    }
 }
 
 
@@ -46,6 +50,7 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
+					
 					bstobj.keys();
 					//bstobj.keys();
 			}
