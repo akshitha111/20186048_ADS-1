@@ -43,7 +43,7 @@ class Solution {
 			String[] check = sc.nextLine().split(",");
 			Student s = new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2]));
 			//bstobj.put(s, check[1]);
-			bstobj.put("Alice", 101);
+			bstobj.put("Clark", 141);
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
