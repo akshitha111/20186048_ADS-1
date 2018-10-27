@@ -52,6 +52,12 @@ class Solution {
 			switch(check[0]) {
 				case "BE":
 					bstobj.keys(check[1], check[2]);
+					break;
+				case "LE":
+                Student s = new Student(Integer.parseInt(check[1]),
+                    check[2], Float.parseFloat(check[2 + 1]));
+                System.out.println(bstobj.floor(check[1]));
+                break;
 			}
 			b--;
 		}

@@ -55,7 +55,11 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-
+Exception in thread "main" java.lang.NumberFormatException: For input string: "70.0"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:57)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -122,7 +126,11 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-
+Exception in thread "main" java.lang.NumberFormatException: For input string: "69.12"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:57)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -841,5 +849,9 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-
+Exception in thread "main" java.lang.NumberFormatException: For input string: "68.32"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:57)
 ----------------------------------------
