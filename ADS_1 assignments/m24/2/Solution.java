@@ -38,11 +38,11 @@ class Solution {
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
 			BinarySearchST<String, Integer> bstobj = new BinarySearchST<String, Integer>();
-		int a = Integer.parseInt(sc.nextLine());
+			int a = Integer.parseInt(sc.nextLine());
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-			bstobj.put(check[1], Integer.parseInt(check[2]));
+			bstobj.put(check[0], Integer.parseInt(check[2]));
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
