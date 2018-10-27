@@ -375,8 +375,12 @@ class Solution{
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
-		System.out.println(b);
-		
+		//System.out.println(b);
+		while(b > 0) {
+			String[] check = sc.nextLine().split(" ");
+			System.out.println(check[0]);
+			b--;
+		}
 		
 	}
 }
