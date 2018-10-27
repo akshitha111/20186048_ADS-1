@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Student implements Comparable{
+class Student {
 	private int rollNumber;
 	private String name;
 	private double marks;
@@ -20,10 +20,10 @@ class Student implements Comparable{
 		return this.marks;
 	}
 
-	public int compareTo(final Object object) {
+	/*public int compareTo(final Object object) {
         Student that = (Student) object;
         return this.name.compareTo(that.name);
-    }
+    }*/
 
     public String toString() {
     	return this.name;
@@ -41,8 +41,8 @@ class Solution {
 			int a = Integer.parseInt(sc.nextLine());
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
-			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-			bstobj.put(check[0], Integer.parseInt(check[2]));
+			Student s = new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2]));
+			//bstobj.put(s, check[1]);
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
@@ -51,8 +51,6 @@ class Solution {
 			switch(check[0]) {
 				case "BE":
 					System.out.println(bstobj.keys(check[1], check[2]));
-					//bstobj.keys();
-					//bstobj.keys();
 			}
 			b--;
 		}
