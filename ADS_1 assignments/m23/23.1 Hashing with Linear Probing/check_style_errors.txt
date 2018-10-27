@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m23\23.1 Hashing with Linear Probing\Solution.java:258: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.
