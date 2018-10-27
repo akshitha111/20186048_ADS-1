@@ -27,7 +27,7 @@ class Solution{
 		int noOfQueries = sc.nextInt();
 		for(int i = 0; i < noOfQueries; i++) {
 			String[] check = sc.nextLine().split(" ");
-			System.out.println(check);
+			//System.out.println(check);
 		}
 	}
 }
