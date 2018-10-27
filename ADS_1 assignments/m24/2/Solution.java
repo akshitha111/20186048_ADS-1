@@ -50,8 +50,8 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
-					
-					bstobj.keys();
+					System.out.println(bstobj.keys());
+					//bstobj.keys();
 					//bstobj.keys();
 			}
 			b--;
