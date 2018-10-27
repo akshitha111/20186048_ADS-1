@@ -58,11 +58,11 @@ class Solution {
 				case "LE":
                 /*Student s = new Student(Integer.parseInt(check[1]),
                     check[2], Float.parseFloat(check[2 + 1]));*/
-                System.out.println(bstobj.floor("70.0"));
+                System.out.println(bstobj.floor(check[1]));
                 break;
                 case "GE":
                 Student s = new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2]));
-                System.out.println(bstobj.ceiling("70.0"));
+                System.out.println(bstobj.ceiling(check[1]));
                 break;
 			}
 			b--;
