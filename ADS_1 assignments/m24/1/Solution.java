@@ -3,9 +3,9 @@ class Student {
 	private int rollNumber;
 	private String name;
 	private double marks;
-	Student(String n, int r, double m) {
-		this.name = n;
+	Student(int r, String n, double m) {
 		this.rollNumber = r;
+		this.name = n;
 		this.marks= m;
 	}
 	public int getRollNumber() {
@@ -361,24 +361,21 @@ class BinarySearchTree {
 
 
 class Solution{
-
 	Solution() {
 
 	}public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		BinarySearchTree bstobj = new BinarySearchTree();
 		int a = Integer.parseInt(sc.nextLine());
-		//System.out.println(a);
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
-			//System.out.println(check[0]);
+			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
+
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
-		//System.out.println(b);
 		while(b > 0) {
 			String[] check = sc.nextLine().split(" ");
-			System.out.println(check[0]);
 			b--;
 		}
 		
