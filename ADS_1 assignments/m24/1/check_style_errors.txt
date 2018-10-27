@@ -22,7 +22,7 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:367:10: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:367:34: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:372:22: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:377: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:378: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:379: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\1\Solution.java:380: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 25 errors.

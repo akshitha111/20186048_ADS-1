@@ -371,9 +371,11 @@ class Solution{
 		//System.out.println(a);
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
-			System.out.println(check[0]);
+			//System.out.println(check[0]);
 			a--;
 		}
+		int b = Integer.parseInt(sc.nextLine());
+		System.out.println(b);
 		
 		
 	}
