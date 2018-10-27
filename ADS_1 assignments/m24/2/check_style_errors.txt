@@ -19,10 +19,11 @@ Starting audit...
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:32:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:34:17: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:34:41: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:36: Line is longer than 80 characters (found 103). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:38:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:40: Line is longer than 80 characters (found 120). [LineLength]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:45:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:47: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] C:\Users\akshitha\Desktop\ADS_1\ADS_1 assignments\m24\2\Solution.java:47:31: 'switch' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 25 errors.
+Checkstyle ends with 26 errors.

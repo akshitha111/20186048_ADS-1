@@ -33,12 +33,12 @@ class Solution {
 	}
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
-			BinarySearchST bstobj = new BinarySearchST();
+			BinarySearchST<String, Integer> bstobj = new BinarySearchST<String, Integer>();
 		int a = Integer.parseInt(sc.nextLine());
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-			bstobj.put(s, Double.parseDouble(check[2]));
+			bstobj.put(check[1], a);
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
@@ -46,7 +46,7 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
-					System.out.println(bstobj.keys());
+					bstobj.keys();
 					//bstobj.keys();
 			}
 			b--;
