@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Student {
+class Student implements Comparable{
 	private int rollNumber;
 	private String name;
 	private double marks;
@@ -38,7 +38,7 @@ class Solution {
 		while(a > 0) {
 			String[] check = sc.nextLine().split(",");
 			Student s = (new Student(Integer.parseInt(check[0]), (check[1]), Double.parseDouble(check[2])));
-
+			bstobj.put(s, Double.parseDouble(check[2]));
 			a--;
 		}
 		int b = Integer.parseInt(sc.nextLine());
@@ -46,7 +46,8 @@ class Solution {
 			String[] check = sc.nextLine().split(" ");
 			switch(check[0]) {
 				case "BE":
-					bstobj.keys();
+					System.out.println(bstobj.keys());
+					//bstobj.keys();
 			}
 			b--;
 		}
