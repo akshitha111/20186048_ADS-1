@@ -15,7 +15,7 @@ class Solution {
         int a = Integer.parseInt(sc.nextLine());
         while(a-- != 0) {
             String[] check = sc.nextLine().split(" ");
-            if(check[0].equals("get") && Integer.parseInt(check[2]) == 1) {
+            if(check[0].equals("get") && check[2].equals("1")) {
                 if(hash1.get(Integer.parseInt(check[1])) == null) {
                 System.out.println("Student doesn't exists...");
             }
@@ -23,7 +23,7 @@ class Solution {
                 System.out.println(hash1.get(Integer.parseInt(check[1])));                
             }            
             }
-            else if(check[0].equals("get") && Integer.parseInt(check[2]) == 2) {
+            else if(check[0].equals("get") && check[2].equals("2")) {
                 if(hash2.get(Integer.parseInt(check[1])) == (null)) {
                 System.out.println("Student doesn't exists...");
             }
