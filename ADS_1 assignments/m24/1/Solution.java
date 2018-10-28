@@ -28,7 +28,7 @@ class Solution {
                 System.out.println("Student doesn't exists...");
             }
             else{
-                System.out.println(hash2.get(Integer.parseInt(check[2])));
+                System.out.println(hash2.get(Integer.parseInt(check[1])));
             }
         }
     
