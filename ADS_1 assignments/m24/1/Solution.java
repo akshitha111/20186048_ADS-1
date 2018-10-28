@@ -17,21 +17,21 @@ class Solution {
             String[] check = sc.nextLine().split(" ");
             if(check[0].equals("get") && Integer.parseInt(check[2]) == 1) {
                 if(hash1.get(Integer.parseInt(check[1])) == null) {
-                System.out.println("Student does not exist...");
+                System.out.println("Student doesn't exists...");
             }
             else {
                 System.out.println(hash1.get(Integer.parseInt(check[1])));                
+            }            
             }
-            }
-            else if(check[0].equals("get") && Integer.parseInt(check[2]) == 1) {
+            else if(check[0].equals("get") && Integer.parseInt(check[2]) == 2) {
                 if(hash2.get(Integer.parseInt(check[1])) == (null)) {
-                System.out.println("Student does not exist...");
+                System.out.println("Student doesn't exists...");
             }
             else{
                 System.out.println(hash2.get(Integer.parseInt(check[2])));
             }
-
         }
-    }
+    
+}
 }
 }
