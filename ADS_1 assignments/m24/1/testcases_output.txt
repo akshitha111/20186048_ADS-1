@@ -9,7 +9,15 @@ Alice
 Bob
 John
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:36)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at Solution.main(Solution.java:7)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 3 more
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -27,7 +35,15 @@ Expected Output:
 45.4
 99.3
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:36)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at Solution.main(Solution.java:7)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 3 more
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -49,7 +65,15 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:36)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at Solution.main(Solution.java:7)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 3 more
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -554,5 +578,13 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:36)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at Solution.main(Solution.java:7)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 3 more
 ----------------------------------------
